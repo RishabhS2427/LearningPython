@@ -15,6 +15,27 @@ def print_hi(name):
     print(val.id)
 
 
+# loop while
+def loop_while() :
+    print('loop while')
+    counter = 0
+    while counter < 10:
+        print(f" {counter}")
+        counter += 1
+
+def for_simple_range_loop():
+    print('for simple range loop')
+    counter = 0
+    for item in range(10):
+        print(f" {counter}")
+        counter += 1
+
+def for_with_enumerate():
+    print('for with enumerate')
+    name = ["Rishabh", "Sam", "Anuj"]
+    for i ,item in enumerate(name):
+         print(f" {i} - {item}")
+
 def add (a, b) :
     return (a + b)
 
@@ -30,6 +51,9 @@ if __name__ == '__main__':
     print_hi('PyCharm')
     print(add(12, 13))
     print(add3(14, 13))
+    loop_while()
+    for_simple_range_loop()
+    for_with_enumerate()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
