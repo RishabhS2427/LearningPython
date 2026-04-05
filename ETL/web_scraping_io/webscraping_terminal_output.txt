@@ -1,0 +1,8527 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Samtva:LearningPython sam$ python3 webscraping_movies.py
+/Applications/Xcode.app/Contents/Developer/usr/bin/python3: can't open file '/Users/sam/KaamKaaj/Data engineer/LearningPython/webscraping_movies.py': [Errno 2] No such file or directory
+Samtva:LearningPython sam$ python3 webscraping_movies.py
+/Applications/Xcode.app/Contents/Developer/usr/bin/python3: can't open file '/Users/sam/KaamKaaj/Data engineer/LearningPython/webscraping_movies.py': [Errno 2] No such file or directory
+Samtva:LearningPython sam$ python3 webscraping_movies.py
+/Applications/Xcode.app/Contents/Developer/usr/bin/python3: can't open file '/Users/sam/KaamKaaj/Data engineer/LearningPython/webscraping_movies.py': [Errno 2] No such file or directory
+Samtva:LearningPython sam$ ls
+ETL             Readme.md       basics_docs     basics_python   fileIO          numpy           pandas_impl     rest_api        web_scraping
+Samtva:LearningPython sam$ cd web_scraping/
+Samtva:web_scraping sam$ ls
+WorkingWithDifferentfileFormat.ipynb                    web-scraping.pdf                                        web_scraping_tool.pdf
+labs_module 1_Web Scraping_Web-Scraping-Review.ipynb    web_scraping.ipynb
+practice_project.ipynb                                  web_scraping_tables.pdf
+Samtva:web_scraping sam$ python3 webscraping_movies.py
+/Applications/Xcode.app/Contents/Developer/usr/bin/python3: can't open file '/Users/sam/KaamKaaj/Data engineer/LearningPython/web_scraping/webscraping_movies.py': [Errno 2] No such file or directory
+Samtva:web_scraping sam$ cd ..
+Samtva:LearningPython sam$ cd ETL/
+Samtva:ETL sam$ ls
+datasource              etl_VC.ipynb            etl_lab_instructions.md source                  web_scraping_io
+datasource.zip          etl_code.py             etl_practice.py         source.zip
+Samtva:ETL sam$ cd web_scraping_io/
+Samtva:web_scraping_io sam$ ls
+Movies.db                                       webscraping and_extracting_data_using _apis.md
+top_50_films.csv                                webscraping_movies.py
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[<tr>
+<th>Average Rank</th>
+<th>Film</th>
+<th>Year</th>
+<th>Rotten Tomatoes' Top 100<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></th>
+<th>IMDb's Top 250 <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></th>
+<th>Empire's Top 100 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></th>
+<th>AFI's Top 100 <sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></th>
+<th>BFI's Top 100 <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</th></tr>, <tr>
+<td>1</td>
+<td>The Godfather</td>
+<td>1972</td>
+<td>17</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>21
+</td></tr>, <tr>
+<td>2</td>
+<td>Citizen Kane</td>
+<td>1941</td>
+<td>2</td>
+<td>93</td>
+<td>40</td>
+<td>1</td>
+<td>2
+</td></tr>, <tr>
+<td>3</td>
+<td>Casablanca</td>
+<td>1942</td>
+<td>8</td>
+<td>42</td>
+<td>33</td>
+<td>3</td>
+<td>84
+</td></tr>, <tr>
+<td>4</td>
+<td>The Godfather, Part II</td>
+<td>1974</td>
+<td>99</td>
+<td>4</td>
+<td>14</td>
+<td>32</td>
+<td>31
+</td></tr>, <tr>
+<td>5</td>
+<td>Singin' in the Rain</td>
+<td>1952</td>
+<td>52</td>
+<td>85</td>
+<td>67</td>
+<td>5</td>
+<td>20
+</td></tr>, <tr>
+<td>6</td>
+<td>Psycho</td>
+<td>1960</td>
+<td>88</td>
+<td>32</td>
+<td>81</td>
+<td>14</td>
+<td>35
+</td></tr>, <tr>
+<td>7</td>
+<td>Rear Window</td>
+<td>1954</td>
+<td>47</td>
+<td>49</td>
+<td>72</td>
+<td>48</td>
+<td>53
+</td></tr>, <tr>
+<td>8</td>
+<td>Apocalypse Now</td>
+<td>1979</td>
+<td>unranked</td>
+<td>55</td>
+<td>29</td>
+<td>30</td>
+<td>14
+</td></tr>, <tr>
+<td>9</td>
+<td>2001: A Space Odyssey</td>
+<td>1968</td>
+<td>unranked</td>
+<td>89</td>
+<td>23</td>
+<td>15</td>
+<td>6
+</td></tr>, <tr>
+<td>10</td>
+<td>Seven Samurai</td>
+<td>1954</td>
+<td>49</td>
+<td>20</td>
+<td>65</td>
+<td>unranked</td>
+<td>17
+</td></tr>, <tr>
+<td>11</td>
+<td>Vertigo</td>
+<td>1958</td>
+<td>unranked</td>
+<td>99</td>
+<td>50</td>
+<td>9</td>
+<td>1
+</td></tr>, <tr>
+<td>12</td>
+<td>Sunset Blvd</td>
+<td>1950</td>
+<td>21</td>
+<td>60</td>
+<td>unranked</td>
+<td>16</td>
+<td>63
+</td></tr>, <tr>
+<td>13</td>
+<td>Modern Times</td>
+<td>1936</td>
+<td>4</td>
+<td>45</td>
+<td>unranked</td>
+<td>78</td>
+<td>63
+</td></tr>, <tr>
+<td>14</td>
+<td>Lawrence of Arabia</td>
+<td>1962</td>
+<td>unranked</td>
+<td>95</td>
+<td>62</td>
+<td>7</td>
+<td>81
+</td></tr>, <tr>
+<td>15</td>
+<td>North by Northwest</td>
+<td>1959</td>
+<td>79</td>
+<td>98</td>
+<td>unranked</td>
+<td>55</td>
+<td>53
+</td></tr>, <tr>
+<td>16</td>
+<td>Star Wars</td>
+<td>1977</td>
+<td>unranked</td>
+<td>27</td>
+<td>11</td>
+<td>13</td>
+<td>unranked
+</td></tr>, <tr>
+<td>17</td>
+<td>Parasite</td>
+<td>2019</td>
+<td>6</td>
+<td>35</td>
+<td>18</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>18</td>
+<td>Schindler's List</td>
+<td>1993</td>
+<td>unranked</td>
+<td>6</td>
+<td>46</td>
+<td>8</td>
+<td>unranked
+</td></tr>, <tr>
+<td>19</td>
+<td>Lord of the Rings: The Fellowship of the Ring</td>
+<td>2001</td>
+<td>unranked</td>
+<td>9</td>
+<td>1</td>
+<td>50</td>
+<td>unranked
+</td></tr>, <tr>
+<td>20</td>
+<td>Shawshank Redemption</td>
+<td>1994</td>
+<td>unranked</td>
+<td>1</td>
+<td>5</td>
+<td>72</td>
+<td>unranked
+</td></tr>, <tr>
+<td>21</td>
+<td>It's a Wonderful Life</td>
+<td>1946</td>
+<td>unranked</td>
+<td>21</td>
+<td>44</td>
+<td>20</td>
+<td>unranked
+</td></tr>, <tr>
+<td>22</td>
+<td>Pulp Fiction</td>
+<td>1994</td>
+<td>unranked</td>
+<td>8</td>
+<td>7</td>
+<td>94</td>
+<td>unranked
+</td></tr>, <tr>
+<td>23</td>
+<td>Avengers: Endgame</td>
+<td>2019</td>
+<td>7</td>
+<td>81</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>24</td>
+<td>City Lights</td>
+<td>1931</td>
+<td>unranked</td>
+<td>51</td>
+<td>unranked</td>
+<td>11</td>
+<td>50
+</td></tr>, <tr>
+<td>25</td>
+<td>One Flew Over the Cuckoo's Nest</td>
+<td>1975</td>
+<td>unranked</td>
+<td>18</td>
+<td>66</td>
+<td>33</td>
+<td>unranked
+</td></tr>, <tr>
+<td>26</td>
+<td>Goodfellas</td>
+<td>1990</td>
+<td>unranked</td>
+<td>17</td>
+<td>10</td>
+<td>92</td>
+<td>unranked
+</td></tr>, <tr>
+<td>27</td>
+<td>Raiders of the Lost Ark</td>
+<td>1981</td>
+<td>unranked</td>
+<td>56</td>
+<td>9</td>
+<td>66</td>
+<td>unranked
+</td></tr>, <tr>
+<td>28</td>
+<td>12 Angry Men</td>
+<td>1957</td>
+<td>unranked</td>
+<td>5</td>
+<td>42</td>
+<td>87</td>
+<td>unranked
+</td></tr>, <tr>
+<td>29</td>
+<td>The Silence of the Lambs</td>
+<td>1991</td>
+<td>unranked</td>
+<td>22</td>
+<td>41</td>
+<td>74</td>
+<td>unranked
+</td></tr>, <tr>
+<td>30</td>
+<td>Taxi Driver</td>
+<td>1976</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>55</td>
+<td>52</td>
+<td>31
+</td></tr>, <tr>
+<td>31</td>
+<td>Saving Private Ryan</td>
+<td>1998</td>
+<td>unranked</td>
+<td>24</td>
+<td>54</td>
+<td>71</td>
+<td>unranked
+</td></tr>, <tr>
+<td>32</td>
+<td>E.T. the Extra Terrestrial</td>
+<td>1982</td>
+<td>48</td>
+<td>unranked</td>
+<td>79</td>
+<td>24</td>
+<td>unranked
+</td></tr>, <tr>
+<td>33</td>
+<td>Alien</td>
+<td>1979</td>
+<td>84</td>
+<td>50</td>
+<td>21</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>34</td>
+<td>Spider-Man: Into the Spider-verse</td>
+<td>2018</td>
+<td>19</td>
+<td>70</td>
+<td>70</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>35</td>
+<td>Blade Runner</td>
+<td>1982</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>16</td>
+<td>97</td>
+<td>69
+</td></tr>, <tr>
+<td>36</td>
+<td>Double Indemnity</td>
+<td>1944</td>
+<td>54</td>
+<td>100</td>
+<td>unranked</td>
+<td>29</td>
+<td>unranked
+</td></tr>, <tr>
+<td>37</td>
+<td>The Dark Knight</td>
+<td>2008</td>
+<td>unranked</td>
+<td>3</td>
+<td>4</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>38</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/The_Wizard_of_Oz_(1939_film)" title="The Wizard of Oz (1939 film)">The Wizard of Oz</a></td>
+<td>1939</td>
+<td>3</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>10</td>
+<td>unranked
+</td></tr>, <tr>
+<td>39</td>
+<td>Star Wars: Episode V- The Empire Strikes Back</td>
+<td>1980</td>
+<td>unranked</td>
+<td>15</td>
+<td>2</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>40</td>
+<td>The Searchers</td>
+<td>1956</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>12</td>
+<td>7
+</td></tr>, <tr>
+<td>41</td>
+<td>Mad Max: Fury Road</td>
+<td>2015</td>
+<td>18</td>
+<td>unranked</td>
+<td>12</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>42</td>
+<td>Inception</td>
+<td>2010</td>
+<td>unranked</td>
+<td>13</td>
+<td>19</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>43</td>
+<td>Lord of the Rings: Return of the King</td>
+<td>2003</td>
+<td>unranked</td>
+<td>7</td>
+<td>27</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>44</td>
+<td>The Matrix</td>
+<td>1999</td>
+<td>unranked</td>
+<td>16</td>
+<td>20</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>45</td>
+<td>Fight Club</td>
+<td>1999</td>
+<td>unranked</td>
+<td>12</td>
+<td>25</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>46</td>
+<td>Back to the Future</td>
+<td>1985</td>
+<td>unranked</td>
+<td>30</td>
+<td>13</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>47</td>
+<td>It Happened One Night</td>
+<td>1934</td>
+<td>1</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>46</td>
+<td>unranked
+</td></tr>, <tr>
+<td>48</td>
+<td>The Good, the Bad, and the Ugly</td>
+<td>1966</td>
+<td>unranked</td>
+<td>10</td>
+<td>38</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>49</td>
+<td>Lord of the Rings: The Two Towers</td>
+<td>2002</td>
+<td>unranked</td>
+<td>14</td>
+<td>34</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>50</td>
+<td>All About Eve</td>
+<td>1950</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>28</td>
+<td>unranked
+</td></tr>, <tr>
+<td>51</td>
+<td>The General</td>
+<td>1926</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>18</td>
+<td>34
+</td></tr>, <tr>
+<td>52</td>
+<td>Terminator 2: Judgement Day</td>
+<td>1991</td>
+<td>unranked</td>
+<td>29</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>53</td>
+<td>Se7en</td>
+<td>1995</td>
+<td>unranked</td>
+<td>19</td>
+<td>37</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>54</td>
+<td>Raging Bull</td>
+<td>1980</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>4</td>
+<td>53
+</td></tr>, <tr>
+<td>55</td>
+<td>Interstellar</td>
+<td>2014</td>
+<td>unranked</td>
+<td>28</td>
+<td>31</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>56</td>
+<td>Jaws</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>6</td>
+<td>56</td>
+<td>unranked
+</td></tr>, <tr>
+<td>57</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Some_Like_It_Hot" title="Some Like It Hot">Some Like it Hot</a></td>
+<td>1959</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>22</td>
+<td>42
+</td></tr>, <tr>
+<td>58</td>
+<td>The Philadelphia Story</td>
+<td>1940</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>44</td>
+<td>unranked
+</td></tr>, <tr>
+<td>59</td>
+<td>Avengers: Infinity War</td>
+<td>2018</td>
+<td>unranked</td>
+<td>65</td>
+<td>8</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>60</td>
+<td>Gladiator</td>
+<td>2000</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>61</td>
+<td>On the Waterfront</td>
+<td>1954</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>62</td>
+<td>Get Out</td>
+<td>2017</td>
+<td>15</td>
+<td>unranked</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>63</td>
+<td>Moonlight</td>
+<td>2016</td>
+<td>20</td>
+<td>unranked</td>
+<td>59</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>64</td>
+<td>Spirited Away</td>
+<td>2001</td>
+<td>unranked</td>
+<td>31</td>
+<td>49</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>65</td>
+<td>Lady Bird</td>
+<td>2017</td>
+<td>12</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>66</td>
+<td>Aliens</td>
+<td>1986</td>
+<td>unranked</td>
+<td>66</td>
+<td>17</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>67</td>
+<td>Forrest Gump</td>
+<td>1994</td>
+<td>unranked</td>
+<td>11</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked
+</td></tr>, <tr>
+<td>68</td>
+<td>Snow White and the Seven Dwarves</td>
+<td>1937</td>
+<td>56</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>34</td>
+<td>unranked
+</td></tr>, <tr>
+<td>69</td>
+<td>Black Panther</td>
+<td>2018</td>
+<td>5</td>
+<td>unranked</td>
+<td>86</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>70</td>
+<td>Whiplash</td>
+<td>2014</td>
+<td>unranked</td>
+<td>43</td>
+<td>51</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>71</td>
+<td>The Shining</td>
+<td>1980</td>
+<td>unranked</td>
+<td>62</td>
+<td>35</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>72</td>
+<td>Metropolis</td>
+<td>1927</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>35
+</td></tr>, <tr>
+<td>73</td>
+<td>The Maltese Falcon</td>
+<td>1941</td>
+<td>67</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>31</td>
+<td>unranked
+</td></tr>, <tr>
+<td>74</td>
+<td>Chinatown</td>
+<td>1974</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>21</td>
+<td>78
+</td></tr>, <tr>
+<td>75</td>
+<td>The Best Years of Our Lives</td>
+<td>1946</td>
+<td>62</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>37</td>
+<td>unranked
+</td></tr>, <tr>
+<td>76</td>
+<td>Mulholland Drive</td>
+<td>2001</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73</td>
+<td>unranked</td>
+<td>28
+</td></tr>, <tr>
+<td>77</td>
+<td>In the Mood for Love</td>
+<td>2000</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78</td>
+<td>unranked</td>
+<td>24
+</td></tr>, <tr>
+<td>78</td>
+<td>A Quiet Place</td>
+<td>2018</td>
+<td>29</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>79</td>
+<td>Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb</td>
+<td>1964</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>39</td>
+<td>unranked
+</td></tr>, <tr>
+<td>80</td>
+<td>Coco</td>
+<td>2017</td>
+<td>37</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>81</td>
+<td>The Third Man</td>
+<td>1949</td>
+<td>46</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>82</td>
+<td>The Usual Suspects</td>
+<td>1995</td>
+<td>unranked</td>
+<td>39</td>
+<td>82</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>83</td>
+<td>La Grande Illusion</td>
+<td>1937</td>
+<td>50</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>84</td>
+<td>Once Upon a Time in the West</td>
+<td>1968</td>
+<td>unranked</td>
+<td>47</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78
+</td></tr>, <tr>
+<td>85</td>
+<td>A Night at the Opera</td>
+<td>1935</td>
+<td>40</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>85</td>
+<td>unranked
+</td></tr>, <tr>
+<td>86</td>
+<td>Logan</td>
+<td>2017</td>
+<td>34</td>
+<td>unranked</td>
+<td>91</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>87</td>
+<td>Thor: Ragnarok</td>
+<td>2017</td>
+<td>42</td>
+<td>unranked</td>
+<td>83</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>88</td>
+<td>Léon: The Professional</td>
+<td>1994</td>
+<td>unranked</td>
+<td>34</td>
+<td>92</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>89</td>
+<td>King Kong</td>
+<td>1933</td>
+<td>85</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>41</td>
+<td>unranked
+</td></tr>, <tr>
+<td>90</td>
+<td>Eternal Sunshine of the Spotless Mind</td>
+<td>2004</td>
+<td>unranked</td>
+<td>91</td>
+<td>36</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>91</td>
+<td>Arrival</td>
+<td>2016</td>
+<td>51</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>92</td>
+<td>Portrait of a Lady on Fire</td>
+<td>2020</td>
+<td>36</td>
+<td>unranked</td>
+<td>93</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>93</td>
+<td>Nashville</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>59</td>
+<td>73
+</td></tr>, <tr>
+<td>94</td>
+<td>Intolerance</td>
+<td>1916</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>49</td>
+<td>93
+</td></tr>, <tr>
+<td>95</td>
+<td>La La Land</td>
+<td>2016</td>
+<td>78</td>
+<td>unranked</td>
+<td>64</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>96</td>
+<td>Do the Right Thing</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>47</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>97</td>
+<td>Inglourious Basterds</td>
+<td>2009</td>
+<td>unranked</td>
+<td>78</td>
+<td>69</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>98</td>
+<td>The Battle of Algiers</td>
+<td>1966</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>48
+</td></tr>, <tr>
+<td>99</td>
+<td>M</td>
+<td>1931</td>
+<td>unranked</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>56
+</td></tr>, <tr>
+<td>100</td>
+<td>The Wild Bunch</td>
+<td>1969</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>79</td>
+<td>84
+</td></tr>, <tr>
+<td>101</td>
+<td>Star Wars: Return of the Jedi</td>
+<td>1983</td>
+<td>unranked</td>
+<td>87</td>
+<td>77</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>102</td>
+<td>A Clockwork Orange</td>
+<td>1971</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>103</td>
+<td>LA Confidential</td>
+<td>1997</td>
+<td>90</td>
+<td>unranked</td>
+<td>80</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>104</td>
+<td>Titanic</td>
+<td>1997</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>88</td>
+<td>83</td>
+<td>unranked
+</td></tr>, <tr>
+<td>105</td>
+<td>Toy Story</td>
+<td>1995</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>99</td>
+<td>unranked
+</td></tr>, <tr>
+<td>106</td>
+<td>Reservoir Dogs</td>
+<td>1992</td>
+<td>unranked</td>
+<td>90</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>107</td>
+<td>Paddington 2</td>
+<td>2018</td>
+<td>93</td>
+<td>unranked</td>
+<td>98</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>108</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Am%C3%A9lie" title="Amélie">Amelie</a></td>
+<td>2001</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>]
+Col[<th>Average Rank</th>, <th>Film</th>, <th>Year</th>, <th>Rotten Tomatoes' Top 100<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></th>, <th>IMDb's Top 250 <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></th>, <th>Empire's Top 100 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></th>, <th>AFI's Top 100 <sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></th>, <th>BFI's Top 100 <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</th>]
+Col2[]
+Empty DataFrame
+Columns: [Average Rank, Film, Year]
+Index: []
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[]
+Empty DataFrame
+Columns: [Average Rank, Film, Year]
+Index: []
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[]
+Empty DataFrame
+Columns: [Average Rank, Film, Year]
+Index: []
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+item <tr>
+<th>Average Rank</th>
+<th>Film</th>
+<th>Year</th>
+<th>Rotten Tomatoes' Top 100<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></th>
+<th>IMDb's Top 250 <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></th>
+<th>Empire's Top 100 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></th>
+<th>AFI's Top 100 <sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></th>
+<th>BFI's Top 100 <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</th></tr>
+Traceback (most recent call last):
+  File "/Users/sam/KaamKaaj/Data engineer/LearningPython/ETL/web_scraping_io/webscraping_movies.py", line 23, in <module>
+    print(col2[0])
+IndexError: list index out of range
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+item <tr>
+<th>Average Rank</th>
+<th>Film</th>
+<th>Year</th>
+<th>Rotten Tomatoes' Top 100<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></th>
+<th>IMDb's Top 250 <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></th>
+<th>Empire's Top 100 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></th>
+<th>AFI's Top 100 <sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></th>
+<th>BFI's Top 100 <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</th></tr>
+Empty DataFrame
+Columns: [Average Rank, Film, Year]
+Index: []
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+rows [<tr>
+<th>Average Rank</th>
+<th>Film</th>
+<th>Year</th>
+<th>Rotten Tomatoes' Top 100<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></th>
+<th>IMDb's Top 250 <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></th>
+<th>Empire's Top 100 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></th>
+<th>AFI's Top 100 <sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></th>
+<th>BFI's Top 100 <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</th></tr>, <tr>
+<td>1</td>
+<td>The Godfather</td>
+<td>1972</td>
+<td>17</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>21
+</td></tr>, <tr>
+<td>2</td>
+<td>Citizen Kane</td>
+<td>1941</td>
+<td>2</td>
+<td>93</td>
+<td>40</td>
+<td>1</td>
+<td>2
+</td></tr>, <tr>
+<td>3</td>
+<td>Casablanca</td>
+<td>1942</td>
+<td>8</td>
+<td>42</td>
+<td>33</td>
+<td>3</td>
+<td>84
+</td></tr>, <tr>
+<td>4</td>
+<td>The Godfather, Part II</td>
+<td>1974</td>
+<td>99</td>
+<td>4</td>
+<td>14</td>
+<td>32</td>
+<td>31
+</td></tr>, <tr>
+<td>5</td>
+<td>Singin' in the Rain</td>
+<td>1952</td>
+<td>52</td>
+<td>85</td>
+<td>67</td>
+<td>5</td>
+<td>20
+</td></tr>, <tr>
+<td>6</td>
+<td>Psycho</td>
+<td>1960</td>
+<td>88</td>
+<td>32</td>
+<td>81</td>
+<td>14</td>
+<td>35
+</td></tr>, <tr>
+<td>7</td>
+<td>Rear Window</td>
+<td>1954</td>
+<td>47</td>
+<td>49</td>
+<td>72</td>
+<td>48</td>
+<td>53
+</td></tr>, <tr>
+<td>8</td>
+<td>Apocalypse Now</td>
+<td>1979</td>
+<td>unranked</td>
+<td>55</td>
+<td>29</td>
+<td>30</td>
+<td>14
+</td></tr>, <tr>
+<td>9</td>
+<td>2001: A Space Odyssey</td>
+<td>1968</td>
+<td>unranked</td>
+<td>89</td>
+<td>23</td>
+<td>15</td>
+<td>6
+</td></tr>, <tr>
+<td>10</td>
+<td>Seven Samurai</td>
+<td>1954</td>
+<td>49</td>
+<td>20</td>
+<td>65</td>
+<td>unranked</td>
+<td>17
+</td></tr>, <tr>
+<td>11</td>
+<td>Vertigo</td>
+<td>1958</td>
+<td>unranked</td>
+<td>99</td>
+<td>50</td>
+<td>9</td>
+<td>1
+</td></tr>, <tr>
+<td>12</td>
+<td>Sunset Blvd</td>
+<td>1950</td>
+<td>21</td>
+<td>60</td>
+<td>unranked</td>
+<td>16</td>
+<td>63
+</td></tr>, <tr>
+<td>13</td>
+<td>Modern Times</td>
+<td>1936</td>
+<td>4</td>
+<td>45</td>
+<td>unranked</td>
+<td>78</td>
+<td>63
+</td></tr>, <tr>
+<td>14</td>
+<td>Lawrence of Arabia</td>
+<td>1962</td>
+<td>unranked</td>
+<td>95</td>
+<td>62</td>
+<td>7</td>
+<td>81
+</td></tr>, <tr>
+<td>15</td>
+<td>North by Northwest</td>
+<td>1959</td>
+<td>79</td>
+<td>98</td>
+<td>unranked</td>
+<td>55</td>
+<td>53
+</td></tr>, <tr>
+<td>16</td>
+<td>Star Wars</td>
+<td>1977</td>
+<td>unranked</td>
+<td>27</td>
+<td>11</td>
+<td>13</td>
+<td>unranked
+</td></tr>, <tr>
+<td>17</td>
+<td>Parasite</td>
+<td>2019</td>
+<td>6</td>
+<td>35</td>
+<td>18</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>18</td>
+<td>Schindler's List</td>
+<td>1993</td>
+<td>unranked</td>
+<td>6</td>
+<td>46</td>
+<td>8</td>
+<td>unranked
+</td></tr>, <tr>
+<td>19</td>
+<td>Lord of the Rings: The Fellowship of the Ring</td>
+<td>2001</td>
+<td>unranked</td>
+<td>9</td>
+<td>1</td>
+<td>50</td>
+<td>unranked
+</td></tr>, <tr>
+<td>20</td>
+<td>Shawshank Redemption</td>
+<td>1994</td>
+<td>unranked</td>
+<td>1</td>
+<td>5</td>
+<td>72</td>
+<td>unranked
+</td></tr>, <tr>
+<td>21</td>
+<td>It's a Wonderful Life</td>
+<td>1946</td>
+<td>unranked</td>
+<td>21</td>
+<td>44</td>
+<td>20</td>
+<td>unranked
+</td></tr>, <tr>
+<td>22</td>
+<td>Pulp Fiction</td>
+<td>1994</td>
+<td>unranked</td>
+<td>8</td>
+<td>7</td>
+<td>94</td>
+<td>unranked
+</td></tr>, <tr>
+<td>23</td>
+<td>Avengers: Endgame</td>
+<td>2019</td>
+<td>7</td>
+<td>81</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>24</td>
+<td>City Lights</td>
+<td>1931</td>
+<td>unranked</td>
+<td>51</td>
+<td>unranked</td>
+<td>11</td>
+<td>50
+</td></tr>, <tr>
+<td>25</td>
+<td>One Flew Over the Cuckoo's Nest</td>
+<td>1975</td>
+<td>unranked</td>
+<td>18</td>
+<td>66</td>
+<td>33</td>
+<td>unranked
+</td></tr>, <tr>
+<td>26</td>
+<td>Goodfellas</td>
+<td>1990</td>
+<td>unranked</td>
+<td>17</td>
+<td>10</td>
+<td>92</td>
+<td>unranked
+</td></tr>, <tr>
+<td>27</td>
+<td>Raiders of the Lost Ark</td>
+<td>1981</td>
+<td>unranked</td>
+<td>56</td>
+<td>9</td>
+<td>66</td>
+<td>unranked
+</td></tr>, <tr>
+<td>28</td>
+<td>12 Angry Men</td>
+<td>1957</td>
+<td>unranked</td>
+<td>5</td>
+<td>42</td>
+<td>87</td>
+<td>unranked
+</td></tr>, <tr>
+<td>29</td>
+<td>The Silence of the Lambs</td>
+<td>1991</td>
+<td>unranked</td>
+<td>22</td>
+<td>41</td>
+<td>74</td>
+<td>unranked
+</td></tr>, <tr>
+<td>30</td>
+<td>Taxi Driver</td>
+<td>1976</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>55</td>
+<td>52</td>
+<td>31
+</td></tr>, <tr>
+<td>31</td>
+<td>Saving Private Ryan</td>
+<td>1998</td>
+<td>unranked</td>
+<td>24</td>
+<td>54</td>
+<td>71</td>
+<td>unranked
+</td></tr>, <tr>
+<td>32</td>
+<td>E.T. the Extra Terrestrial</td>
+<td>1982</td>
+<td>48</td>
+<td>unranked</td>
+<td>79</td>
+<td>24</td>
+<td>unranked
+</td></tr>, <tr>
+<td>33</td>
+<td>Alien</td>
+<td>1979</td>
+<td>84</td>
+<td>50</td>
+<td>21</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>34</td>
+<td>Spider-Man: Into the Spider-verse</td>
+<td>2018</td>
+<td>19</td>
+<td>70</td>
+<td>70</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>35</td>
+<td>Blade Runner</td>
+<td>1982</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>16</td>
+<td>97</td>
+<td>69
+</td></tr>, <tr>
+<td>36</td>
+<td>Double Indemnity</td>
+<td>1944</td>
+<td>54</td>
+<td>100</td>
+<td>unranked</td>
+<td>29</td>
+<td>unranked
+</td></tr>, <tr>
+<td>37</td>
+<td>The Dark Knight</td>
+<td>2008</td>
+<td>unranked</td>
+<td>3</td>
+<td>4</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>38</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/The_Wizard_of_Oz_(1939_film)" title="The Wizard of Oz (1939 film)">The Wizard of Oz</a></td>
+<td>1939</td>
+<td>3</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>10</td>
+<td>unranked
+</td></tr>, <tr>
+<td>39</td>
+<td>Star Wars: Episode V- The Empire Strikes Back</td>
+<td>1980</td>
+<td>unranked</td>
+<td>15</td>
+<td>2</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>40</td>
+<td>The Searchers</td>
+<td>1956</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>12</td>
+<td>7
+</td></tr>, <tr>
+<td>41</td>
+<td>Mad Max: Fury Road</td>
+<td>2015</td>
+<td>18</td>
+<td>unranked</td>
+<td>12</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>42</td>
+<td>Inception</td>
+<td>2010</td>
+<td>unranked</td>
+<td>13</td>
+<td>19</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>43</td>
+<td>Lord of the Rings: Return of the King</td>
+<td>2003</td>
+<td>unranked</td>
+<td>7</td>
+<td>27</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>44</td>
+<td>The Matrix</td>
+<td>1999</td>
+<td>unranked</td>
+<td>16</td>
+<td>20</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>45</td>
+<td>Fight Club</td>
+<td>1999</td>
+<td>unranked</td>
+<td>12</td>
+<td>25</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>46</td>
+<td>Back to the Future</td>
+<td>1985</td>
+<td>unranked</td>
+<td>30</td>
+<td>13</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>47</td>
+<td>It Happened One Night</td>
+<td>1934</td>
+<td>1</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>46</td>
+<td>unranked
+</td></tr>, <tr>
+<td>48</td>
+<td>The Good, the Bad, and the Ugly</td>
+<td>1966</td>
+<td>unranked</td>
+<td>10</td>
+<td>38</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>49</td>
+<td>Lord of the Rings: The Two Towers</td>
+<td>2002</td>
+<td>unranked</td>
+<td>14</td>
+<td>34</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>50</td>
+<td>All About Eve</td>
+<td>1950</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>28</td>
+<td>unranked
+</td></tr>, <tr>
+<td>51</td>
+<td>The General</td>
+<td>1926</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>18</td>
+<td>34
+</td></tr>, <tr>
+<td>52</td>
+<td>Terminator 2: Judgement Day</td>
+<td>1991</td>
+<td>unranked</td>
+<td>29</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>53</td>
+<td>Se7en</td>
+<td>1995</td>
+<td>unranked</td>
+<td>19</td>
+<td>37</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>54</td>
+<td>Raging Bull</td>
+<td>1980</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>4</td>
+<td>53
+</td></tr>, <tr>
+<td>55</td>
+<td>Interstellar</td>
+<td>2014</td>
+<td>unranked</td>
+<td>28</td>
+<td>31</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>56</td>
+<td>Jaws</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>6</td>
+<td>56</td>
+<td>unranked
+</td></tr>, <tr>
+<td>57</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Some_Like_It_Hot" title="Some Like It Hot">Some Like it Hot</a></td>
+<td>1959</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>22</td>
+<td>42
+</td></tr>, <tr>
+<td>58</td>
+<td>The Philadelphia Story</td>
+<td>1940</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>44</td>
+<td>unranked
+</td></tr>, <tr>
+<td>59</td>
+<td>Avengers: Infinity War</td>
+<td>2018</td>
+<td>unranked</td>
+<td>65</td>
+<td>8</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>60</td>
+<td>Gladiator</td>
+<td>2000</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>61</td>
+<td>On the Waterfront</td>
+<td>1954</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>62</td>
+<td>Get Out</td>
+<td>2017</td>
+<td>15</td>
+<td>unranked</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>63</td>
+<td>Moonlight</td>
+<td>2016</td>
+<td>20</td>
+<td>unranked</td>
+<td>59</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>64</td>
+<td>Spirited Away</td>
+<td>2001</td>
+<td>unranked</td>
+<td>31</td>
+<td>49</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>65</td>
+<td>Lady Bird</td>
+<td>2017</td>
+<td>12</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>66</td>
+<td>Aliens</td>
+<td>1986</td>
+<td>unranked</td>
+<td>66</td>
+<td>17</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>67</td>
+<td>Forrest Gump</td>
+<td>1994</td>
+<td>unranked</td>
+<td>11</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked
+</td></tr>, <tr>
+<td>68</td>
+<td>Snow White and the Seven Dwarves</td>
+<td>1937</td>
+<td>56</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>34</td>
+<td>unranked
+</td></tr>, <tr>
+<td>69</td>
+<td>Black Panther</td>
+<td>2018</td>
+<td>5</td>
+<td>unranked</td>
+<td>86</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>70</td>
+<td>Whiplash</td>
+<td>2014</td>
+<td>unranked</td>
+<td>43</td>
+<td>51</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>71</td>
+<td>The Shining</td>
+<td>1980</td>
+<td>unranked</td>
+<td>62</td>
+<td>35</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>72</td>
+<td>Metropolis</td>
+<td>1927</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>35
+</td></tr>, <tr>
+<td>73</td>
+<td>The Maltese Falcon</td>
+<td>1941</td>
+<td>67</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>31</td>
+<td>unranked
+</td></tr>, <tr>
+<td>74</td>
+<td>Chinatown</td>
+<td>1974</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>21</td>
+<td>78
+</td></tr>, <tr>
+<td>75</td>
+<td>The Best Years of Our Lives</td>
+<td>1946</td>
+<td>62</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>37</td>
+<td>unranked
+</td></tr>, <tr>
+<td>76</td>
+<td>Mulholland Drive</td>
+<td>2001</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73</td>
+<td>unranked</td>
+<td>28
+</td></tr>, <tr>
+<td>77</td>
+<td>In the Mood for Love</td>
+<td>2000</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78</td>
+<td>unranked</td>
+<td>24
+</td></tr>, <tr>
+<td>78</td>
+<td>A Quiet Place</td>
+<td>2018</td>
+<td>29</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>79</td>
+<td>Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb</td>
+<td>1964</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>39</td>
+<td>unranked
+</td></tr>, <tr>
+<td>80</td>
+<td>Coco</td>
+<td>2017</td>
+<td>37</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>81</td>
+<td>The Third Man</td>
+<td>1949</td>
+<td>46</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>82</td>
+<td>The Usual Suspects</td>
+<td>1995</td>
+<td>unranked</td>
+<td>39</td>
+<td>82</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>83</td>
+<td>La Grande Illusion</td>
+<td>1937</td>
+<td>50</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>84</td>
+<td>Once Upon a Time in the West</td>
+<td>1968</td>
+<td>unranked</td>
+<td>47</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78
+</td></tr>, <tr>
+<td>85</td>
+<td>A Night at the Opera</td>
+<td>1935</td>
+<td>40</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>85</td>
+<td>unranked
+</td></tr>, <tr>
+<td>86</td>
+<td>Logan</td>
+<td>2017</td>
+<td>34</td>
+<td>unranked</td>
+<td>91</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>87</td>
+<td>Thor: Ragnarok</td>
+<td>2017</td>
+<td>42</td>
+<td>unranked</td>
+<td>83</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>88</td>
+<td>Léon: The Professional</td>
+<td>1994</td>
+<td>unranked</td>
+<td>34</td>
+<td>92</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>89</td>
+<td>King Kong</td>
+<td>1933</td>
+<td>85</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>41</td>
+<td>unranked
+</td></tr>, <tr>
+<td>90</td>
+<td>Eternal Sunshine of the Spotless Mind</td>
+<td>2004</td>
+<td>unranked</td>
+<td>91</td>
+<td>36</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>91</td>
+<td>Arrival</td>
+<td>2016</td>
+<td>51</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>92</td>
+<td>Portrait of a Lady on Fire</td>
+<td>2020</td>
+<td>36</td>
+<td>unranked</td>
+<td>93</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>93</td>
+<td>Nashville</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>59</td>
+<td>73
+</td></tr>, <tr>
+<td>94</td>
+<td>Intolerance</td>
+<td>1916</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>49</td>
+<td>93
+</td></tr>, <tr>
+<td>95</td>
+<td>La La Land</td>
+<td>2016</td>
+<td>78</td>
+<td>unranked</td>
+<td>64</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>96</td>
+<td>Do the Right Thing</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>47</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>97</td>
+<td>Inglourious Basterds</td>
+<td>2009</td>
+<td>unranked</td>
+<td>78</td>
+<td>69</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>98</td>
+<td>The Battle of Algiers</td>
+<td>1966</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>48
+</td></tr>, <tr>
+<td>99</td>
+<td>M</td>
+<td>1931</td>
+<td>unranked</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>56
+</td></tr>, <tr>
+<td>100</td>
+<td>The Wild Bunch</td>
+<td>1969</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>79</td>
+<td>84
+</td></tr>, <tr>
+<td>101</td>
+<td>Star Wars: Return of the Jedi</td>
+<td>1983</td>
+<td>unranked</td>
+<td>87</td>
+<td>77</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>102</td>
+<td>A Clockwork Orange</td>
+<td>1971</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>103</td>
+<td>LA Confidential</td>
+<td>1997</td>
+<td>90</td>
+<td>unranked</td>
+<td>80</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>104</td>
+<td>Titanic</td>
+<td>1997</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>88</td>
+<td>83</td>
+<td>unranked
+</td></tr>, <tr>
+<td>105</td>
+<td>Toy Story</td>
+<td>1995</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>99</td>
+<td>unranked
+</td></tr>, <tr>
+<td>106</td>
+<td>Reservoir Dogs</td>
+<td>1992</td>
+<td>unranked</td>
+<td>90</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>107</td>
+<td>Paddington 2</td>
+<td>2018</td>
+<td>93</td>
+<td>unranked</td>
+<td>98</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>108</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Am%C3%A9lie" title="Amélie">Amelie</a></td>
+<td>2001</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>]
+item <tr>
+<th>Average Rank</th>
+<th>Film</th>
+<th>Year</th>
+<th>Rotten Tomatoes' Top 100<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></th>
+<th>IMDb's Top 250 <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></th>
+<th>Empire's Top 100 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></th>
+<th>AFI's Top 100 <sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></th>
+<th>BFI's Top 100 <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</th></tr>
+Empty DataFrame
+Columns: [Average Rank, Film, Year]
+Index: []
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+rows [<tr>
+<th>Average Rank</th>
+<th>Film</th>
+<th>Year</th>
+<th>Rotten Tomatoes' Top 100<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></th>
+<th>IMDb's Top 250 <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></th>
+<th>Empire's Top 100 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></th>
+<th>AFI's Top 100 <sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></th>
+<th>BFI's Top 100 <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</th></tr>, <tr>
+<td>1</td>
+<td>The Godfather</td>
+<td>1972</td>
+<td>17</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>21
+</td></tr>, <tr>
+<td>2</td>
+<td>Citizen Kane</td>
+<td>1941</td>
+<td>2</td>
+<td>93</td>
+<td>40</td>
+<td>1</td>
+<td>2
+</td></tr>, <tr>
+<td>3</td>
+<td>Casablanca</td>
+<td>1942</td>
+<td>8</td>
+<td>42</td>
+<td>33</td>
+<td>3</td>
+<td>84
+</td></tr>, <tr>
+<td>4</td>
+<td>The Godfather, Part II</td>
+<td>1974</td>
+<td>99</td>
+<td>4</td>
+<td>14</td>
+<td>32</td>
+<td>31
+</td></tr>, <tr>
+<td>5</td>
+<td>Singin' in the Rain</td>
+<td>1952</td>
+<td>52</td>
+<td>85</td>
+<td>67</td>
+<td>5</td>
+<td>20
+</td></tr>, <tr>
+<td>6</td>
+<td>Psycho</td>
+<td>1960</td>
+<td>88</td>
+<td>32</td>
+<td>81</td>
+<td>14</td>
+<td>35
+</td></tr>, <tr>
+<td>7</td>
+<td>Rear Window</td>
+<td>1954</td>
+<td>47</td>
+<td>49</td>
+<td>72</td>
+<td>48</td>
+<td>53
+</td></tr>, <tr>
+<td>8</td>
+<td>Apocalypse Now</td>
+<td>1979</td>
+<td>unranked</td>
+<td>55</td>
+<td>29</td>
+<td>30</td>
+<td>14
+</td></tr>, <tr>
+<td>9</td>
+<td>2001: A Space Odyssey</td>
+<td>1968</td>
+<td>unranked</td>
+<td>89</td>
+<td>23</td>
+<td>15</td>
+<td>6
+</td></tr>, <tr>
+<td>10</td>
+<td>Seven Samurai</td>
+<td>1954</td>
+<td>49</td>
+<td>20</td>
+<td>65</td>
+<td>unranked</td>
+<td>17
+</td></tr>, <tr>
+<td>11</td>
+<td>Vertigo</td>
+<td>1958</td>
+<td>unranked</td>
+<td>99</td>
+<td>50</td>
+<td>9</td>
+<td>1
+</td></tr>, <tr>
+<td>12</td>
+<td>Sunset Blvd</td>
+<td>1950</td>
+<td>21</td>
+<td>60</td>
+<td>unranked</td>
+<td>16</td>
+<td>63
+</td></tr>, <tr>
+<td>13</td>
+<td>Modern Times</td>
+<td>1936</td>
+<td>4</td>
+<td>45</td>
+<td>unranked</td>
+<td>78</td>
+<td>63
+</td></tr>, <tr>
+<td>14</td>
+<td>Lawrence of Arabia</td>
+<td>1962</td>
+<td>unranked</td>
+<td>95</td>
+<td>62</td>
+<td>7</td>
+<td>81
+</td></tr>, <tr>
+<td>15</td>
+<td>North by Northwest</td>
+<td>1959</td>
+<td>79</td>
+<td>98</td>
+<td>unranked</td>
+<td>55</td>
+<td>53
+</td></tr>, <tr>
+<td>16</td>
+<td>Star Wars</td>
+<td>1977</td>
+<td>unranked</td>
+<td>27</td>
+<td>11</td>
+<td>13</td>
+<td>unranked
+</td></tr>, <tr>
+<td>17</td>
+<td>Parasite</td>
+<td>2019</td>
+<td>6</td>
+<td>35</td>
+<td>18</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>18</td>
+<td>Schindler's List</td>
+<td>1993</td>
+<td>unranked</td>
+<td>6</td>
+<td>46</td>
+<td>8</td>
+<td>unranked
+</td></tr>, <tr>
+<td>19</td>
+<td>Lord of the Rings: The Fellowship of the Ring</td>
+<td>2001</td>
+<td>unranked</td>
+<td>9</td>
+<td>1</td>
+<td>50</td>
+<td>unranked
+</td></tr>, <tr>
+<td>20</td>
+<td>Shawshank Redemption</td>
+<td>1994</td>
+<td>unranked</td>
+<td>1</td>
+<td>5</td>
+<td>72</td>
+<td>unranked
+</td></tr>, <tr>
+<td>21</td>
+<td>It's a Wonderful Life</td>
+<td>1946</td>
+<td>unranked</td>
+<td>21</td>
+<td>44</td>
+<td>20</td>
+<td>unranked
+</td></tr>, <tr>
+<td>22</td>
+<td>Pulp Fiction</td>
+<td>1994</td>
+<td>unranked</td>
+<td>8</td>
+<td>7</td>
+<td>94</td>
+<td>unranked
+</td></tr>, <tr>
+<td>23</td>
+<td>Avengers: Endgame</td>
+<td>2019</td>
+<td>7</td>
+<td>81</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>24</td>
+<td>City Lights</td>
+<td>1931</td>
+<td>unranked</td>
+<td>51</td>
+<td>unranked</td>
+<td>11</td>
+<td>50
+</td></tr>, <tr>
+<td>25</td>
+<td>One Flew Over the Cuckoo's Nest</td>
+<td>1975</td>
+<td>unranked</td>
+<td>18</td>
+<td>66</td>
+<td>33</td>
+<td>unranked
+</td></tr>, <tr>
+<td>26</td>
+<td>Goodfellas</td>
+<td>1990</td>
+<td>unranked</td>
+<td>17</td>
+<td>10</td>
+<td>92</td>
+<td>unranked
+</td></tr>, <tr>
+<td>27</td>
+<td>Raiders of the Lost Ark</td>
+<td>1981</td>
+<td>unranked</td>
+<td>56</td>
+<td>9</td>
+<td>66</td>
+<td>unranked
+</td></tr>, <tr>
+<td>28</td>
+<td>12 Angry Men</td>
+<td>1957</td>
+<td>unranked</td>
+<td>5</td>
+<td>42</td>
+<td>87</td>
+<td>unranked
+</td></tr>, <tr>
+<td>29</td>
+<td>The Silence of the Lambs</td>
+<td>1991</td>
+<td>unranked</td>
+<td>22</td>
+<td>41</td>
+<td>74</td>
+<td>unranked
+</td></tr>, <tr>
+<td>30</td>
+<td>Taxi Driver</td>
+<td>1976</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>55</td>
+<td>52</td>
+<td>31
+</td></tr>, <tr>
+<td>31</td>
+<td>Saving Private Ryan</td>
+<td>1998</td>
+<td>unranked</td>
+<td>24</td>
+<td>54</td>
+<td>71</td>
+<td>unranked
+</td></tr>, <tr>
+<td>32</td>
+<td>E.T. the Extra Terrestrial</td>
+<td>1982</td>
+<td>48</td>
+<td>unranked</td>
+<td>79</td>
+<td>24</td>
+<td>unranked
+</td></tr>, <tr>
+<td>33</td>
+<td>Alien</td>
+<td>1979</td>
+<td>84</td>
+<td>50</td>
+<td>21</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>34</td>
+<td>Spider-Man: Into the Spider-verse</td>
+<td>2018</td>
+<td>19</td>
+<td>70</td>
+<td>70</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>35</td>
+<td>Blade Runner</td>
+<td>1982</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>16</td>
+<td>97</td>
+<td>69
+</td></tr>, <tr>
+<td>36</td>
+<td>Double Indemnity</td>
+<td>1944</td>
+<td>54</td>
+<td>100</td>
+<td>unranked</td>
+<td>29</td>
+<td>unranked
+</td></tr>, <tr>
+<td>37</td>
+<td>The Dark Knight</td>
+<td>2008</td>
+<td>unranked</td>
+<td>3</td>
+<td>4</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>38</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/The_Wizard_of_Oz_(1939_film)" title="The Wizard of Oz (1939 film)">The Wizard of Oz</a></td>
+<td>1939</td>
+<td>3</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>10</td>
+<td>unranked
+</td></tr>, <tr>
+<td>39</td>
+<td>Star Wars: Episode V- The Empire Strikes Back</td>
+<td>1980</td>
+<td>unranked</td>
+<td>15</td>
+<td>2</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>40</td>
+<td>The Searchers</td>
+<td>1956</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>12</td>
+<td>7
+</td></tr>, <tr>
+<td>41</td>
+<td>Mad Max: Fury Road</td>
+<td>2015</td>
+<td>18</td>
+<td>unranked</td>
+<td>12</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>42</td>
+<td>Inception</td>
+<td>2010</td>
+<td>unranked</td>
+<td>13</td>
+<td>19</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>43</td>
+<td>Lord of the Rings: Return of the King</td>
+<td>2003</td>
+<td>unranked</td>
+<td>7</td>
+<td>27</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>44</td>
+<td>The Matrix</td>
+<td>1999</td>
+<td>unranked</td>
+<td>16</td>
+<td>20</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>45</td>
+<td>Fight Club</td>
+<td>1999</td>
+<td>unranked</td>
+<td>12</td>
+<td>25</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>46</td>
+<td>Back to the Future</td>
+<td>1985</td>
+<td>unranked</td>
+<td>30</td>
+<td>13</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>47</td>
+<td>It Happened One Night</td>
+<td>1934</td>
+<td>1</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>46</td>
+<td>unranked
+</td></tr>, <tr>
+<td>48</td>
+<td>The Good, the Bad, and the Ugly</td>
+<td>1966</td>
+<td>unranked</td>
+<td>10</td>
+<td>38</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>49</td>
+<td>Lord of the Rings: The Two Towers</td>
+<td>2002</td>
+<td>unranked</td>
+<td>14</td>
+<td>34</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>50</td>
+<td>All About Eve</td>
+<td>1950</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>28</td>
+<td>unranked
+</td></tr>, <tr>
+<td>51</td>
+<td>The General</td>
+<td>1926</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>18</td>
+<td>34
+</td></tr>, <tr>
+<td>52</td>
+<td>Terminator 2: Judgement Day</td>
+<td>1991</td>
+<td>unranked</td>
+<td>29</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>53</td>
+<td>Se7en</td>
+<td>1995</td>
+<td>unranked</td>
+<td>19</td>
+<td>37</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>54</td>
+<td>Raging Bull</td>
+<td>1980</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>4</td>
+<td>53
+</td></tr>, <tr>
+<td>55</td>
+<td>Interstellar</td>
+<td>2014</td>
+<td>unranked</td>
+<td>28</td>
+<td>31</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>56</td>
+<td>Jaws</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>6</td>
+<td>56</td>
+<td>unranked
+</td></tr>, <tr>
+<td>57</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Some_Like_It_Hot" title="Some Like It Hot">Some Like it Hot</a></td>
+<td>1959</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>22</td>
+<td>42
+</td></tr>, <tr>
+<td>58</td>
+<td>The Philadelphia Story</td>
+<td>1940</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>44</td>
+<td>unranked
+</td></tr>, <tr>
+<td>59</td>
+<td>Avengers: Infinity War</td>
+<td>2018</td>
+<td>unranked</td>
+<td>65</td>
+<td>8</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>60</td>
+<td>Gladiator</td>
+<td>2000</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>61</td>
+<td>On the Waterfront</td>
+<td>1954</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>62</td>
+<td>Get Out</td>
+<td>2017</td>
+<td>15</td>
+<td>unranked</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>63</td>
+<td>Moonlight</td>
+<td>2016</td>
+<td>20</td>
+<td>unranked</td>
+<td>59</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>64</td>
+<td>Spirited Away</td>
+<td>2001</td>
+<td>unranked</td>
+<td>31</td>
+<td>49</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>65</td>
+<td>Lady Bird</td>
+<td>2017</td>
+<td>12</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>66</td>
+<td>Aliens</td>
+<td>1986</td>
+<td>unranked</td>
+<td>66</td>
+<td>17</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>67</td>
+<td>Forrest Gump</td>
+<td>1994</td>
+<td>unranked</td>
+<td>11</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked
+</td></tr>, <tr>
+<td>68</td>
+<td>Snow White and the Seven Dwarves</td>
+<td>1937</td>
+<td>56</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>34</td>
+<td>unranked
+</td></tr>, <tr>
+<td>69</td>
+<td>Black Panther</td>
+<td>2018</td>
+<td>5</td>
+<td>unranked</td>
+<td>86</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>70</td>
+<td>Whiplash</td>
+<td>2014</td>
+<td>unranked</td>
+<td>43</td>
+<td>51</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>71</td>
+<td>The Shining</td>
+<td>1980</td>
+<td>unranked</td>
+<td>62</td>
+<td>35</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>72</td>
+<td>Metropolis</td>
+<td>1927</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>35
+</td></tr>, <tr>
+<td>73</td>
+<td>The Maltese Falcon</td>
+<td>1941</td>
+<td>67</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>31</td>
+<td>unranked
+</td></tr>, <tr>
+<td>74</td>
+<td>Chinatown</td>
+<td>1974</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>21</td>
+<td>78
+</td></tr>, <tr>
+<td>75</td>
+<td>The Best Years of Our Lives</td>
+<td>1946</td>
+<td>62</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>37</td>
+<td>unranked
+</td></tr>, <tr>
+<td>76</td>
+<td>Mulholland Drive</td>
+<td>2001</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73</td>
+<td>unranked</td>
+<td>28
+</td></tr>, <tr>
+<td>77</td>
+<td>In the Mood for Love</td>
+<td>2000</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78</td>
+<td>unranked</td>
+<td>24
+</td></tr>, <tr>
+<td>78</td>
+<td>A Quiet Place</td>
+<td>2018</td>
+<td>29</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>79</td>
+<td>Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb</td>
+<td>1964</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>39</td>
+<td>unranked
+</td></tr>, <tr>
+<td>80</td>
+<td>Coco</td>
+<td>2017</td>
+<td>37</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>81</td>
+<td>The Third Man</td>
+<td>1949</td>
+<td>46</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>82</td>
+<td>The Usual Suspects</td>
+<td>1995</td>
+<td>unranked</td>
+<td>39</td>
+<td>82</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>83</td>
+<td>La Grande Illusion</td>
+<td>1937</td>
+<td>50</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>84</td>
+<td>Once Upon a Time in the West</td>
+<td>1968</td>
+<td>unranked</td>
+<td>47</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78
+</td></tr>, <tr>
+<td>85</td>
+<td>A Night at the Opera</td>
+<td>1935</td>
+<td>40</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>85</td>
+<td>unranked
+</td></tr>, <tr>
+<td>86</td>
+<td>Logan</td>
+<td>2017</td>
+<td>34</td>
+<td>unranked</td>
+<td>91</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>87</td>
+<td>Thor: Ragnarok</td>
+<td>2017</td>
+<td>42</td>
+<td>unranked</td>
+<td>83</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>88</td>
+<td>Léon: The Professional</td>
+<td>1994</td>
+<td>unranked</td>
+<td>34</td>
+<td>92</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>89</td>
+<td>King Kong</td>
+<td>1933</td>
+<td>85</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>41</td>
+<td>unranked
+</td></tr>, <tr>
+<td>90</td>
+<td>Eternal Sunshine of the Spotless Mind</td>
+<td>2004</td>
+<td>unranked</td>
+<td>91</td>
+<td>36</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>91</td>
+<td>Arrival</td>
+<td>2016</td>
+<td>51</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>92</td>
+<td>Portrait of a Lady on Fire</td>
+<td>2020</td>
+<td>36</td>
+<td>unranked</td>
+<td>93</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>93</td>
+<td>Nashville</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>59</td>
+<td>73
+</td></tr>, <tr>
+<td>94</td>
+<td>Intolerance</td>
+<td>1916</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>49</td>
+<td>93
+</td></tr>, <tr>
+<td>95</td>
+<td>La La Land</td>
+<td>2016</td>
+<td>78</td>
+<td>unranked</td>
+<td>64</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>96</td>
+<td>Do the Right Thing</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>47</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>97</td>
+<td>Inglourious Basterds</td>
+<td>2009</td>
+<td>unranked</td>
+<td>78</td>
+<td>69</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>98</td>
+<td>The Battle of Algiers</td>
+<td>1966</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>48
+</td></tr>, <tr>
+<td>99</td>
+<td>M</td>
+<td>1931</td>
+<td>unranked</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>56
+</td></tr>, <tr>
+<td>100</td>
+<td>The Wild Bunch</td>
+<td>1969</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>79</td>
+<td>84
+</td></tr>, <tr>
+<td>101</td>
+<td>Star Wars: Return of the Jedi</td>
+<td>1983</td>
+<td>unranked</td>
+<td>87</td>
+<td>77</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>102</td>
+<td>A Clockwork Orange</td>
+<td>1971</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>103</td>
+<td>LA Confidential</td>
+<td>1997</td>
+<td>90</td>
+<td>unranked</td>
+<td>80</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>104</td>
+<td>Titanic</td>
+<td>1997</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>88</td>
+<td>83</td>
+<td>unranked
+</td></tr>, <tr>
+<td>105</td>
+<td>Toy Story</td>
+<td>1995</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>99</td>
+<td>unranked
+</td></tr>, <tr>
+<td>106</td>
+<td>Reservoir Dogs</td>
+<td>1992</td>
+<td>unranked</td>
+<td>90</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>107</td>
+<td>Paddington 2</td>
+<td>2018</td>
+<td>93</td>
+<td>unranked</td>
+<td>98</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>108</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Am%C3%A9lie" title="Amélie">Amelie</a></td>
+<td>2001</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>]
+item <tr>
+<th>Average Rank</th>
+<th>Film</th>
+<th>Year</th>
+<th>Rotten Tomatoes' Top 100<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></th>
+<th>IMDb's Top 250 <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></th>
+<th>Empire's Top 100 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></th>
+<th>AFI's Top 100 <sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></th>
+<th>BFI's Top 100 <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</th></tr>
+Empty DataFrame
+Columns: [Average Rank, Film, Year]
+Index: []
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+rows [<tr>
+<th>Average Rank</th>
+<th>Film</th>
+<th>Year</th>
+<th>Rotten Tomatoes' Top 100<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></th>
+<th>IMDb's Top 250 <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></th>
+<th>Empire's Top 100 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></th>
+<th>AFI's Top 100 <sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></th>
+<th>BFI's Top 100 <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</th></tr>, <tr>
+<td>1</td>
+<td>The Godfather</td>
+<td>1972</td>
+<td>17</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>21
+</td></tr>, <tr>
+<td>2</td>
+<td>Citizen Kane</td>
+<td>1941</td>
+<td>2</td>
+<td>93</td>
+<td>40</td>
+<td>1</td>
+<td>2
+</td></tr>, <tr>
+<td>3</td>
+<td>Casablanca</td>
+<td>1942</td>
+<td>8</td>
+<td>42</td>
+<td>33</td>
+<td>3</td>
+<td>84
+</td></tr>, <tr>
+<td>4</td>
+<td>The Godfather, Part II</td>
+<td>1974</td>
+<td>99</td>
+<td>4</td>
+<td>14</td>
+<td>32</td>
+<td>31
+</td></tr>, <tr>
+<td>5</td>
+<td>Singin' in the Rain</td>
+<td>1952</td>
+<td>52</td>
+<td>85</td>
+<td>67</td>
+<td>5</td>
+<td>20
+</td></tr>, <tr>
+<td>6</td>
+<td>Psycho</td>
+<td>1960</td>
+<td>88</td>
+<td>32</td>
+<td>81</td>
+<td>14</td>
+<td>35
+</td></tr>, <tr>
+<td>7</td>
+<td>Rear Window</td>
+<td>1954</td>
+<td>47</td>
+<td>49</td>
+<td>72</td>
+<td>48</td>
+<td>53
+</td></tr>, <tr>
+<td>8</td>
+<td>Apocalypse Now</td>
+<td>1979</td>
+<td>unranked</td>
+<td>55</td>
+<td>29</td>
+<td>30</td>
+<td>14
+</td></tr>, <tr>
+<td>9</td>
+<td>2001: A Space Odyssey</td>
+<td>1968</td>
+<td>unranked</td>
+<td>89</td>
+<td>23</td>
+<td>15</td>
+<td>6
+</td></tr>, <tr>
+<td>10</td>
+<td>Seven Samurai</td>
+<td>1954</td>
+<td>49</td>
+<td>20</td>
+<td>65</td>
+<td>unranked</td>
+<td>17
+</td></tr>, <tr>
+<td>11</td>
+<td>Vertigo</td>
+<td>1958</td>
+<td>unranked</td>
+<td>99</td>
+<td>50</td>
+<td>9</td>
+<td>1
+</td></tr>, <tr>
+<td>12</td>
+<td>Sunset Blvd</td>
+<td>1950</td>
+<td>21</td>
+<td>60</td>
+<td>unranked</td>
+<td>16</td>
+<td>63
+</td></tr>, <tr>
+<td>13</td>
+<td>Modern Times</td>
+<td>1936</td>
+<td>4</td>
+<td>45</td>
+<td>unranked</td>
+<td>78</td>
+<td>63
+</td></tr>, <tr>
+<td>14</td>
+<td>Lawrence of Arabia</td>
+<td>1962</td>
+<td>unranked</td>
+<td>95</td>
+<td>62</td>
+<td>7</td>
+<td>81
+</td></tr>, <tr>
+<td>15</td>
+<td>North by Northwest</td>
+<td>1959</td>
+<td>79</td>
+<td>98</td>
+<td>unranked</td>
+<td>55</td>
+<td>53
+</td></tr>, <tr>
+<td>16</td>
+<td>Star Wars</td>
+<td>1977</td>
+<td>unranked</td>
+<td>27</td>
+<td>11</td>
+<td>13</td>
+<td>unranked
+</td></tr>, <tr>
+<td>17</td>
+<td>Parasite</td>
+<td>2019</td>
+<td>6</td>
+<td>35</td>
+<td>18</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>18</td>
+<td>Schindler's List</td>
+<td>1993</td>
+<td>unranked</td>
+<td>6</td>
+<td>46</td>
+<td>8</td>
+<td>unranked
+</td></tr>, <tr>
+<td>19</td>
+<td>Lord of the Rings: The Fellowship of the Ring</td>
+<td>2001</td>
+<td>unranked</td>
+<td>9</td>
+<td>1</td>
+<td>50</td>
+<td>unranked
+</td></tr>, <tr>
+<td>20</td>
+<td>Shawshank Redemption</td>
+<td>1994</td>
+<td>unranked</td>
+<td>1</td>
+<td>5</td>
+<td>72</td>
+<td>unranked
+</td></tr>, <tr>
+<td>21</td>
+<td>It's a Wonderful Life</td>
+<td>1946</td>
+<td>unranked</td>
+<td>21</td>
+<td>44</td>
+<td>20</td>
+<td>unranked
+</td></tr>, <tr>
+<td>22</td>
+<td>Pulp Fiction</td>
+<td>1994</td>
+<td>unranked</td>
+<td>8</td>
+<td>7</td>
+<td>94</td>
+<td>unranked
+</td></tr>, <tr>
+<td>23</td>
+<td>Avengers: Endgame</td>
+<td>2019</td>
+<td>7</td>
+<td>81</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>24</td>
+<td>City Lights</td>
+<td>1931</td>
+<td>unranked</td>
+<td>51</td>
+<td>unranked</td>
+<td>11</td>
+<td>50
+</td></tr>, <tr>
+<td>25</td>
+<td>One Flew Over the Cuckoo's Nest</td>
+<td>1975</td>
+<td>unranked</td>
+<td>18</td>
+<td>66</td>
+<td>33</td>
+<td>unranked
+</td></tr>, <tr>
+<td>26</td>
+<td>Goodfellas</td>
+<td>1990</td>
+<td>unranked</td>
+<td>17</td>
+<td>10</td>
+<td>92</td>
+<td>unranked
+</td></tr>, <tr>
+<td>27</td>
+<td>Raiders of the Lost Ark</td>
+<td>1981</td>
+<td>unranked</td>
+<td>56</td>
+<td>9</td>
+<td>66</td>
+<td>unranked
+</td></tr>, <tr>
+<td>28</td>
+<td>12 Angry Men</td>
+<td>1957</td>
+<td>unranked</td>
+<td>5</td>
+<td>42</td>
+<td>87</td>
+<td>unranked
+</td></tr>, <tr>
+<td>29</td>
+<td>The Silence of the Lambs</td>
+<td>1991</td>
+<td>unranked</td>
+<td>22</td>
+<td>41</td>
+<td>74</td>
+<td>unranked
+</td></tr>, <tr>
+<td>30</td>
+<td>Taxi Driver</td>
+<td>1976</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>55</td>
+<td>52</td>
+<td>31
+</td></tr>, <tr>
+<td>31</td>
+<td>Saving Private Ryan</td>
+<td>1998</td>
+<td>unranked</td>
+<td>24</td>
+<td>54</td>
+<td>71</td>
+<td>unranked
+</td></tr>, <tr>
+<td>32</td>
+<td>E.T. the Extra Terrestrial</td>
+<td>1982</td>
+<td>48</td>
+<td>unranked</td>
+<td>79</td>
+<td>24</td>
+<td>unranked
+</td></tr>, <tr>
+<td>33</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/The_Wizard_of_Oz_(1939_film)" title="The Wizard of Oz (1939 film)">The Wizard of Oz</a></td>
+<td>1939</td>
+<td>3</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>10</td>
+<td>unranked
+</td></tr>, <tr>
+<td>39</td>
+<td>Star Wars: Episode V- The Empire Strikes Back</td>
+<td>1980</td>
+<td>unranked</td>
+<td>15</td>
+<td>2</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>40</td>
+<td>The Searchers</td>
+<td>1956</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>12</td>
+<td>7
+</td></tr>, <tr>
+<td>41</td>
+<td>Mad Max: Fury Road</td>
+<td>2015</td>
+<td>18</td>
+<td>unranked</td>
+<td>12</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>42</td>
+<td>Inception</td>
+<td>2010</td>
+<td>unranked</td>
+<td>13</td>
+<td>19</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>43</td>
+<td>Lord of the Rings: Return of the King</td>
+<td>2003</td>
+<td>unranked</td>
+<td>7</td>
+<td>27</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>44</td>
+<td>The Matrix</td>
+<td>1999</td>
+<td>unranked</td>
+<td>16</td>
+<td>20</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>45</td>
+<td>Fight Club</td>
+<td>1999</td>
+<td>unranked</td>
+<td>12</td>
+<td>25</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>46</td>
+<td>Back to the Future</td>
+<td>1985</td>
+<td>unranked</td>
+<td>30</td>
+<td>13</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>47</td>
+<td>It Happened One Night</td>
+<td>1934</td>
+<td>1</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>46</td>
+<td>unranked
+</td></tr>, <tr>
+<td>48</td>
+<td>The Good, the Bad, and the Ugly</td>
+<td>1966</td>
+<td>unranked</td>
+<td>10</td>
+<td>38</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>49</td>
+<td>Lord of the Rings: The Two Towers</td>
+<td>2002</td>
+<td>unranked</td>
+<td>14</td>
+<td>34</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>50</td>
+<td>All About Eve</td>
+<td>1950</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>28</td>
+<td>unranked
+</td></tr>, <tr>
+<td>51</td>
+<td>The General</td>
+<td>1926</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>18</td>
+<td>34
+</td></tr>, <tr>
+<td>52</td>
+<td>Terminator 2: Judgement Day</td>
+<td>1991</td>
+<td>unranked</td>
+<td>29</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>53</td>
+<td>Se7en</td>
+<td>1995</td>
+<td>unranked</td>
+<td>19</td>
+<td>37</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>54</td>
+<td>Raging Bull</td>
+<td>1980</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>4</td>
+<td>53
+</td></tr>, <tr>
+<td>55</td>
+<td>Interstellar</td>
+<td>2014</td>
+<td>unranked</td>
+<td>28</td>
+<td>31</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>56</td>
+<td>Jaws</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>6</td>
+<td>56</td>
+<td>unranked
+</td></tr>, <tr>
+<td>57</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Some_Like_It_Hot" title="Some Like It Hot">Some Like it Hot</a></td>
+<td>1959</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>22</td>
+<td>42
+</td></tr>, <tr>
+<td>58</td>
+<td>The Philadelphia Story</td>
+<td>1940</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>44</td>
+<td>unranked
+</td></tr>, <tr>
+<td>59</td>
+<td>Avengers: Infinity War</td>
+<td>2018</td>
+<td>unranked</td>
+<td>65</td>
+<td>8</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>60</td>
+<td>Gladiator</td>
+<td>2000</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>61</td>
+<td>On the Waterfront</td>
+<td>1954</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>62</td>
+<td>Get Out</td>
+<td>2017</td>
+<td>15</td>
+<td>unranked</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>63</td>
+<td>Moonlight</td>
+<td>2016</td>
+<td>20</td>
+<td>unranked</td>
+<td>59</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>64</td>
+<td>Spirited Away</td>
+<td>2001</td>
+<td>unranked</td>
+<td>31</td>
+<td>49</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>65</td>
+<td>Lady Bird</td>
+<td>2017</td>
+<td>12</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>66</td>
+<td>Aliens</td>
+<td>1986</td>
+<td>unranked</td>
+<td>66</td>
+<td>17</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>67</td>
+<td>Forrest Gump</td>
+<td>1994</td>
+<td>unranked</td>
+<td>11</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked
+</td></tr>, <tr>
+<td>68</td>
+<td>Snow White and the Seven Dwarves</td>
+<td>1937</td>
+<td>56</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>34</td>
+<td>unranked
+</td></tr>, <tr>
+<td>69</td>
+<td>Black Panther</td>
+<td>2018</td>
+<td>5</td>
+<td>unranked</td>
+<td>86</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>70</td>
+<td>Whiplash</td>
+<td>2014</td>
+<td>unranked</td>
+<td>43</td>
+<td>51</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>71</td>
+<td>The Shining</td>
+<td>1980</td>
+<td>unranked</td>
+<td>62</td>
+<td>35</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>72</td>
+<td>Metropolis</td>
+<td>1927</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>35
+</td></tr>, <tr>
+<td>73</td>
+<td>The Maltese Falcon</td>
+<td>1941</td>
+<td>67</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>31</td>
+<td>unranked
+</td></tr>, <tr>
+<td>74</td>
+<td>Chinatown</td>
+<td>1974</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>21</td>
+<td>78
+</td></tr>, <tr>
+<td>75</td>
+<td>The Best Years of Our Lives</td>
+<td>1946</td>
+<td>62</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>37</td>
+<td>unranked
+</td></tr>, <tr>
+<td>76</td>
+<td>Mulholland Drive</td>
+<td>2001</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73</td>
+<td>unranked</td>
+<td>28
+</td></tr>, <tr>
+<td>77</td>
+<td>In the Mood for Love</td>
+<td>2000</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78</td>
+<td>unranked</td>
+<td>24
+</td></tr>, <tr>
+<td>78</td>
+<td>A Quiet Place</td>
+<td>2018</td>
+<td>29</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>79</td>
+<td>Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb</td>
+<td>1964</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>39</td>
+<td>unranked
+</td></tr>, <tr>
+<td>80</td>
+<td>Coco</td>
+<td>2017</td>
+<td>37</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>81</td>
+<td>The Third Man</td>
+<td>1949</td>
+<td>46</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>82</td>
+<td>The Usual Suspects</td>
+<td>1995</td>
+<td>unranked</td>
+<td>39</td>
+<td>82</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>83</td>
+<td>La Grande Illusion</td>
+<td>1937</td>
+<td>50</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>84</td>
+<td>Once Upon a Time in the West</td>
+<td>1968</td>
+<td>unranked</td>
+<td>47</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78
+</td></tr>, <tr>
+<td>85</td>
+<td>A Night at the Opera</td>
+<td>1935</td>
+<td>40</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>85</td>
+<td>unranked
+</td></tr>, <tr>
+<td>86</td>
+<td>Logan</td>
+<td>2017</td>
+<td>34</td>
+<td>unranked</td>
+<td>91</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>87</td>
+<td>Thor: Ragnarok</td>
+<td>2017</td>
+<td>42</td>
+<td>unranked</td>
+<td>83</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>88</td>
+<td>Léon: The Professional</td>
+<td>1994</td>
+<td>unranked</td>
+<td>34</td>
+<td>92</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>89</td>
+<td>King Kong</td>
+<td>1933</td>
+<td>85</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>41</td>
+<td>unranked
+</td></tr>, <tr>
+<td>90</td>
+<td>Eternal Sunshine of the Spotless Mind</td>
+<td>2004</td>
+<td>unranked</td>
+<td>91</td>
+<td>36</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>91</td>
+<td>Arrival</td>
+<td>2016</td>
+<td>51</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>92</td>
+<td>Portrait of a Lady on Fire</td>
+<td>2020</td>
+<td>36</td>
+<td>unranked</td>
+<td>93</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>93</td>
+<td>Nashville</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>59</td>
+<td>73
+</td></tr>, <tr>
+<td>94</td>
+<td>Intolerance</td>
+<td>1916</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>49</td>
+<td>93
+</td></tr>, <tr>
+<td>95</td>
+<td>La La Land</td>
+<td>2016</td>
+<td>78</td>
+<td>unranked</td>
+<td>64</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>96</td>
+<td>Do the Right Thing</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>47</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>97</td>
+<td>Inglourious Basterds</td>
+<td>2009</td>
+<td>unranked</td>
+<td>78</td>
+<td>69</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>98</td>
+<td>The Battle of Algiers</td>
+<td>1966</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>48
+</td></tr>, <tr>
+<td>99</td>
+<td>M</td>
+<td>1931</td>
+<td>unranked</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>56
+</td></tr>, <tr>
+<td>100</td>
+<td>The Wild Bunch</td>
+<td>1969</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>79</td>
+<td>84
+</td></tr>, <tr>
+<td>101</td>
+<td>Star Wars: Return of the Jedi</td>
+<td>1983</td>
+<td>unranked</td>
+<td>87</td>
+<td>77</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>102</td>
+<td>A Clockwork Orange</td>
+<td>1971</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>103</td>
+<td>LA Confidential</td>
+<td>1997</td>
+<td>90</td>
+<td>unranked</td>
+<td>80</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>104</td>
+<td>Titanic</td>
+<td>1997</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>88</td>
+<td>83</td>
+<td>unranked
+</td></tr>, <tr>
+<td>105</td>
+<td>Toy Story</td>
+<td>1995</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>99</td>
+<td>unranked
+</td></tr>, <tr>
+<td>106</td>
+<td>Reservoir Dogs</td>
+<td>1992</td>
+<td>unranked</td>
+<td>90</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>107</td>
+<td>Paddington 2</td>
+<td>2018</td>
+<td>93</td>
+<td>unranked</td>
+<td>98</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>108</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Am%C3%A9lie" title="Amélie">Amelie</a></td>
+<td>2001</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>]
+   Average Rank                                           Film  Year
+0             1                                  The Godfather  1972
+1             2                                   Citizen Kane  1941
+2             3                                     Casablanca  1942
+3             4                         The Godfather, Part II  1974
+4             5                            Singin' in the Rain  1952
+5             6                                         Psycho  1960
+6             7                                    Rear Window  1954
+7             8                                 Apocalypse Now  1979
+8             9                          2001: A Space Odyssey  1968
+9            10                                  Seven Samurai  1954
+10           11                                        Vertigo  1958
+11           12                                    Sunset Blvd  1950
+12           13                                   Modern Times  1936
+13           14                             Lawrence of Arabia  1962
+14           15                             North by Northwest  1959
+15           16                                      Star Wars  1977
+16           17                                       Parasite  2019
+17           18                               Schindler's List  1993
+18           19  Lord of the Rings: The Fellowship of the Ring  2001
+19           20                           Shawshank Redemption  1994
+20           21                          It's a Wonderful Life  1946
+21           22                                   Pulp Fiction  1994
+22           23                              Avengers: Endgame  2019
+23           24                                    City Lights  1931
+24           25                One Flew Over the Cuckoo's Nest  1975
+25           26                                     Goodfellas  1990
+26           27                        Raiders of the Lost Ark  1981
+27           28                                   12 Angry Men  1957
+28           29                       The Silence of the Lambs  1991
+29           30                                    Taxi Driver  1976
+30           31                            Saving Private Ryan  1998
+31           32                     E.T. the Extra Terrestrial  1982
+32           33                                          Alien  1979
+33           34              Spider-Man: Into the Spider-verse  2018
+34           35                                   Blade Runner  1982
+35           36                               Double Indemnity  1944
+36           37                                The Dark Knight  2008
+37           38                               The Wizard of Oz  1939
+38           39  Star Wars: Episode V- The Empire Strikes Back  1980
+39           40                                  The Searchers  1956
+40           41                             Mad Max: Fury Road  2015
+41           42                                      Inception  2010
+42           43          Lord of the Rings: Return of the King  2003
+43           44                                     The Matrix  1999
+44           45                                     Fight Club  1999
+45           46                             Back to the Future  1985
+46           47                          It Happened One Night  1934
+47           48                The Good, the Bad, and the Ugly  1966
+48           49              Lord of the Rings: The Two Towers  2002
+49           50                                  All About Eve  1950
+   Average Rank                                           Film  Year
+0             1                                  The Godfather  1972
+1             2                                   Citizen Kane  1941
+2             3                                     Casablanca  1942
+3             4                         The Godfather, Part II  1974
+4             5                            Singin' in the Rain  1952
+5             6                                         Psycho  1960
+6             7                                    Rear Window  1954
+7             8                                 Apocalypse Now  1979
+8             9                          2001: A Space Odyssey  1968
+9            10                                  Seven Samurai  1954
+10           11                                        Vertigo  1958
+11           12                                    Sunset Blvd  1950
+12           13                                   Modern Times  1936
+13           14                             Lawrence of Arabia  1962
+14           15                             North by Northwest  1959
+15           16                                      Star Wars  1977
+16           17                                       Parasite  2019
+17           18                               Schindler's List  1993
+18           19  Lord of the Rings: The Fellowship of the Ring  2001
+19           20                           Shawshank Redemption  1994
+20           21                          It's a Wonderful Life  1946
+21           22                                   Pulp Fiction  1994
+22           23                              Avengers: Endgame  2019
+23           24                                    City Lights  1931
+24           25                One Flew Over the Cuckoo's Nest  1975
+25           26                                     Goodfellas  1990
+26           27                        Raiders of the Lost Ark  1981
+27           28                                   12 Angry Men  1957
+28           29                       The Silence of the Lambs  1991
+29           30                                    Taxi Driver  1976
+30           31                            Saving Private Ryan  1998
+31           32                     E.T. the Extra Terrestrial  1982
+32           33                                          Alien  1979
+33           34              Spider-Man: Into the Spider-verse  2018
+34           35                                   Blade Runner  1982
+35           36                               Double Indemnity  1944
+36           37                                The Dark Knight  2008
+37           38                               The Wizard of Oz  1939
+38           39  Star Wars: Episode V- The Empire Strikes Back  1980
+39           40                                  The Searchers  1956
+40           41                             Mad Max: Fury Road  2015
+41           42                                      Inception  2010
+42           43          Lord of the Rings: Return of the King  2003
+43           44                                     The Matrix  1999
+44           45                                     Fight Club  1999
+45           46                             Back to the Future  1985
+46           47                          It Happened One Night  1934
+47           48                The Good, the Bad, and the Ugly  1966
+48           49              Lord of the Rings: The Two Towers  2002
+49           50                                  All About Eve  1950
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+rows [<tr>
+<th>Average Rank</th>
+<th>Film</th>
+<th>Year</th>
+<th>Rotten Tomatoes' Top 100<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></th>
+<th>IMDb's Top 250 <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></th>
+<th>Empire's Top 100 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></th>
+<th>AFI's Top 100 <sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></th>
+<th>BFI's Top 100 <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</th></tr>, <tr>
+<td>1</td>
+<td>The Godfather</td>
+<td>1972</td>
+<td>17</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>21
+</td></tr>, <tr>
+<td>2</td>
+<td>Citizen Kane</td>
+<td>1941</td>
+<td>2</td>
+<td>93</td>
+<td>40</td>
+<td>1</td>
+<td>2
+</td></tr>, <tr>
+<td>3</td>
+<td>Casablanca</td>
+<td>1942</td>
+<td>8</td>
+<td>42</td>
+<td>33</td>
+<td>3</td>
+<td>84
+</td></tr>, <tr>
+<td>4</td>
+<td>The Godfather, Part II</td>
+<td>1974</td>
+<td>99</td>
+<td>4</td>
+<td>14</td>
+<td>32</td>
+<td>31
+</td></tr>, <tr>
+<td>5</td>
+<td>Singin' in the Rain</td>
+<td>1952</td>
+<td>52</td>
+<td>85</td>
+<td>67</td>
+<td>5</td>
+<td>20
+</td></tr>, <tr>
+<td>6</td>
+<td>Psycho</td>
+<td>1960</td>
+<td>88</td>
+<td>32</td>
+<td>81</td>
+<td>14</td>
+<td>35
+</td></tr>, <tr>
+<td>7</td>
+<td>Rear Window</td>
+<td>1954</td>
+<td>47</td>
+<td>49</td>
+<td>72</td>
+<td>48</td>
+<td>53
+</td></tr>, <tr>
+<td>8</td>
+<td>Apocalypse Now</td>
+<td>1979</td>
+<td>unranked</td>
+<td>55</td>
+<td>29</td>
+<td>30</td>
+<td>14
+</td></tr>, <tr>
+<td>9</td>
+<td>2001: A Space Odyssey</td>
+<td>1968</td>
+<td>unranked</td>
+<td>89</td>
+<td>23</td>
+<td>15</td>
+<td>6
+</td></tr>, <tr>
+<td>10</td>
+<td>Seven Samurai</td>
+<td>1954</td>
+<td>49</td>
+<td>20</td>
+<td>65</td>
+<td>unranked</td>
+<td>17
+</td></tr>, <tr>
+<td>11</td>
+<td>Vertigo</td>
+<td>1958</td>
+<td>unranked</td>
+<td>99</td>
+<td>50</td>
+<td>9</td>
+<td>1
+</td></tr>, <tr>
+<td>12</td>
+<td>Sunset Blvd</td>
+<td>1950</td>
+<td>21</td>
+<td>60</td>
+<td>unranked</td>
+<td>16</td>
+<td>63
+</td></tr>, <tr>
+<td>13</td>
+<td>Modern Times</td>
+<td>1936</td>
+<td>4</td>
+<td>45</td>
+<td>unranked</td>
+<td>78</td>
+<td>63
+</td></tr>, <tr>
+<td>14</td>
+<td>Lawrence of Arabia</td>
+<td>1962</td>
+<td>unranked</td>
+<td>95</td>
+<td>62</td>
+<td>7</td>
+<td>81
+</td></tr>, <tr>
+<td>15</td>
+<td>North by Northwest</td>
+<td>1959</td>
+<td>79</td>
+<td>98</td>
+<td>unranked</td>
+<td>55</td>
+<td>53
+</td></tr>, <tr>
+<td>16</td>
+<td>Star Wars</td>
+<td>1977</td>
+<td>unranked</td>
+<td>27</td>
+<td>11</td>
+<td>13</td>
+<td>unranked
+</td></tr>, <tr>
+<td>17</td>
+<td>Parasite</td>
+<td>2019</td>
+<td>6</td>
+<td>35</td>
+<td>18</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>18</td>
+<td>Schindler's List</td>
+<td>1993</td>
+<td>unranked</td>
+<td>6</td>
+<td>46</td>
+<td>8</td>
+<td>unranked
+</td></tr>, <tr>
+<td>19</td>
+<td>Lord of the Rings: The Fellowship of the Ring</td>
+<td>2001</td>
+<td>unranked</td>
+<td>9</td>
+<td>1</td>
+<td>50</td>
+<td>unranked
+</td></tr>, <tr>
+<td>20</td>
+<td>Shawshank Redemption</td>
+<td>1994</td>
+<td>unranked</td>
+<td>1</td>
+<td>5</td>
+<td>72</td>
+<td>unranked
+</td></tr>, <tr>
+<td>21</td>
+<td>It's a Wonderful Life</td>
+<td>1946</td>
+<td>unranked</td>
+<td>21</td>
+<td>44</td>
+<td>20</td>
+<td>unranked
+</td></tr>, <tr>
+<td>22</td>
+<td>Pulp Fiction</td>
+<td>1994</td>
+<td>unranked</td>
+<td>8</td>
+<td>7</td>
+<td>94</td>
+<td>unranked
+</td></tr>, <tr>
+<td>23</td>
+<td>Avengers: Endgame</td>
+<td>2019</td>
+<td>7</td>
+<td>81</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>24</td>
+<td>City Lights</td>
+<td>1931</td>
+<td>unranked</td>
+<td>51</td>
+<td>unranked</td>
+<td>11</td>
+<td>50
+</td></tr>, <tr>
+<td>25</td>
+<td>One Flew Over the Cuckoo's Nest</td>
+<td>1975</td>
+<td>unranked</td>
+<td>18</td>
+<td>66</td>
+<td>33</td>
+<td>unranked
+</td></tr>, <tr>
+<td>26</td>
+<td>Goodfellas</td>
+<td>1990</td>
+<td>unranked</td>
+<td>17</td>
+<td>10</td>
+<td>92</td>
+<td>unranked
+</td></tr>, <tr>
+<td>27</td>
+<td>Raiders of the Lost Ark</td>
+<td>1981</td>
+<td>unranked</td>
+<td>56</td>
+<td>9</td>
+<td>66</td>
+<td>unranked
+</td></tr>, <tr>
+<td>28</td>
+<td>12 Angry Men</td>
+<td>1957</td>
+<td>unranked</td>
+<td>5</td>
+<td>42</td>
+<td>87</td>
+<td>unranked
+</td></tr>, <tr>
+<td>29</td>
+<td>The Silence of the Lambs</td>
+<td>1991</td>
+<td>unranked</td>
+<td>22</td>
+<td>41</td>
+<td>74</td>
+<td>unranked
+</td></tr>, <tr>
+<td>30</td>
+<td>Taxi Driver</td>
+<td>1976</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>55</td>
+<td>52</td>
+<td>31
+</td></tr>, <tr>
+<td>31</td>
+<td>Saving Private Ryan</td>
+<td>1998</td>
+<td>unranked</td>
+<td>24</td>
+<td>54</td>
+<td>71</td>
+<td>unranked
+</td></tr>, <tr>
+<td>32</td>
+<td>E.T. the Extra Terrestrial</td>
+<td>1982</td>
+<td>48</td>
+<td>unranked</td>
+<td>79</td>
+<td>24</td>
+<td>unranked
+</td></tr>, <tr>
+<td>33</td>
+<td>Alien</td>
+<td>1979</td>
+<td>84</td>
+<td>50</td>
+<td>21</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>34</td>
+<td>Spider-Man: Into the Spider-verse</td>
+<td>2018</td>
+<td>19</td>
+<td>70</td>
+<td>70</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>35</td>
+<td>Blade Runner</td>
+<td>1982</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>16</td>
+<td>97</td>
+<td>69
+</td></tr>, <tr>
+<td>36</td>
+<td>Double Indemnity</td>
+<td>1944</td>
+<td>54</td>
+<td>100</td>
+<td>unranked</td>
+<td>29</td>
+<td>unranked
+</td></tr>, <tr>
+<td>37</td>
+<td>The Dark Knight</td>
+<td>2008</td>
+<td>unranked</td>
+<td>3</td>
+<td>4</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>38</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/The_Wizard_of_Oz_(1939_film)" title="The Wizard of Oz (1939 film)">The Wizard of Oz</a></td>
+<td>1939</td>
+<td>3</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>10</td>
+<td>unranked
+</td></tr>, <tr>
+<td>39</td>
+<td>Star Wars: Episode V- The Empire Strikes Back</td>
+<td>1980</td>
+<td>unranked</td>
+<td>15</td>
+<td>2</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>40</td>
+<td>The Searchers</td>
+<td>1956</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>12</td>
+<td>7
+</td></tr>, <tr>
+<td>41</td>
+<td>Mad Max: Fury Road</td>
+<td>2015</td>
+<td>18</td>
+<td>unranked</td>
+<td>12</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>42</td>
+<td>Inception</td>
+<td>2010</td>
+<td>unranked</td>
+<td>13</td>
+<td>19</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>43</td>
+<td>Lord of the Rings: Return of the King</td>
+<td>2003</td>
+<td>unranked</td>
+<td>7</td>
+<td>27</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>44</td>
+<td>The Matrix</td>
+<td>1999</td>
+<td>unranked</td>
+<td>16</td>
+<td>20</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>45</td>
+<td>Fight Club</td>
+<td>1999</td>
+<td>unranked</td>
+<td>12</td>
+<td>25</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>46</td>
+<td>Back to the Future</td>
+<td>1985</td>
+<td>unranked</td>
+<td>30</td>
+<td>13</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>47</td>
+<td>It Happened One Night</td>
+<td>1934</td>
+<td>1</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>46</td>
+<td>unranked
+</td></tr>, <tr>
+<td>48</td>
+<td>The Good, the Bad, and the Ugly</td>
+<td>1966</td>
+<td>unranked</td>
+<td>10</td>
+<td>38</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>49</td>
+<td>Lord of the Rings: The Two Towers</td>
+<td>2002</td>
+<td>unranked</td>
+<td>14</td>
+<td>34</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>50</td>
+<td>All About Eve</td>
+<td>1950</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>28</td>
+<td>unranked
+</td></tr>, <tr>
+<td>51</td>
+<td>The General</td>
+<td>1926</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>18</td>
+<td>34
+</td></tr>, <tr>
+<td>52</td>
+<td>Terminator 2: Judgement Day</td>
+<td>1991</td>
+<td>unranked</td>
+<td>29</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>53</td>
+<td>Se7en</td>
+<td>1995</td>
+<td>unranked</td>
+<td>19</td>
+<td>37</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>54</td>
+<td>Raging Bull</td>
+<td>1980</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>4</td>
+<td>53
+</td></tr>, <tr>
+<td>55</td>
+<td>Interstellar</td>
+<td>2014</td>
+<td>unranked</td>
+<td>28</td>
+<td>31</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>56</td>
+<td>Jaws</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>6</td>
+<td>56</td>
+<td>unranked
+</td></tr>, <tr>
+<td>57</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Some_Like_It_Hot" title="Some Like It Hot">Some Like it Hot</a></td>
+<td>1959</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>22</td>
+<td>42
+</td></tr>, <tr>
+<td>58</td>
+<td>The Philadelphia Story</td>
+<td>1940</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>44</td>
+<td>unranked
+</td></tr>, <tr>
+<td>59</td>
+<td>Avengers: Infinity War</td>
+<td>2018</td>
+<td>unranked</td>
+<td>65</td>
+<td>8</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>60</td>
+<td>Gladiator</td>
+<td>2000</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>61</td>
+<td>On the Waterfront</td>
+<td>1954</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>62</td>
+<td>Get Out</td>
+<td>2017</td>
+<td>15</td>
+<td>unranked</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>63</td>
+<td>Moonlight</td>
+<td>2016</td>
+<td>20</td>
+<td>unranked</td>
+<td>59</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>64</td>
+<td>Spirited Away</td>
+<td>2001</td>
+<td>unranked</td>
+<td>31</td>
+<td>49</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>65</td>
+<td>Lady Bird</td>
+<td>2017</td>
+<td>12</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>66</td>
+<td>Aliens</td>
+<td>1986</td>
+<td>unranked</td>
+<td>66</td>
+<td>17</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>67</td>
+<td>Forrest Gump</td>
+<td>1994</td>
+<td>unranked</td>
+<td>11</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked
+</td></tr>, <tr>
+<td>68</td>
+<td>Snow White and the Seven Dwarves</td>
+<td>1937</td>
+<td>56</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>34</td>
+<td>unranked
+</td></tr>, <tr>
+<td>69</td>
+<td>Black Panther</td>
+<td>2018</td>
+<td>5</td>
+<td>unranked</td>
+<td>86</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>70</td>
+<td>Whiplash</td>
+<td>2014</td>
+<td>unranked</td>
+<td>43</td>
+<td>51</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>71</td>
+<td>The Shining</td>
+<td>1980</td>
+<td>unranked</td>
+<td>62</td>
+<td>35</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>72</td>
+<td>Metropolis</td>
+<td>1927</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>35
+</td></tr>, <tr>
+<td>73</td>
+<td>The Maltese Falcon</td>
+<td>1941</td>
+<td>67</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>31</td>
+<td>unranked
+</td></tr>, <tr>
+<td>74</td>
+<td>Chinatown</td>
+<td>1974</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>21</td>
+<td>78
+</td></tr>, <tr>
+<td>75</td>
+<td>The Best Years of Our Lives</td>
+<td>1946</td>
+<td>62</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>37</td>
+<td>unranked
+</td></tr>, <tr>
+<td>76</td>
+<td>Mulholland Drive</td>
+<td>2001</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73</td>
+<td>unranked</td>
+<td>28
+</td></tr>, <tr>
+<td>77</td>
+<td>In the Mood for Love</td>
+<td>2000</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78</td>
+<td>unranked</td>
+<td>24
+</td></tr>, <tr>
+<td>78</td>
+<td>A Quiet Place</td>
+<td>2018</td>
+<td>29</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>79</td>
+<td>Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb</td>
+<td>1964</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>39</td>
+<td>unranked
+</td></tr>, <tr>
+<td>80</td>
+<td>Coco</td>
+<td>2017</td>
+<td>37</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>81</td>
+<td>The Third Man</td>
+<td>1949</td>
+<td>46</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>82</td>
+<td>The Usual Suspects</td>
+<td>1995</td>
+<td>unranked</td>
+<td>39</td>
+<td>82</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>83</td>
+<td>La Grande Illusion</td>
+<td>1937</td>
+<td>50</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>84</td>
+<td>Once Upon a Time in the West</td>
+<td>1968</td>
+<td>unranked</td>
+<td>47</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78
+</td></tr>, <tr>
+<td>85</td>
+<td>A Night at the Opera</td>
+<td>1935</td>
+<td>40</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>85</td>
+<td>unranked
+</td></tr>, <tr>
+<td>86</td>
+<td>Logan</td>
+<td>2017</td>
+<td>34</td>
+<td>unranked</td>
+<td>91</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>87</td>
+<td>Thor: Ragnarok</td>
+<td>2017</td>
+<td>42</td>
+<td>unranked</td>
+<td>83</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>88</td>
+<td>Léon: The Professional</td>
+<td>1994</td>
+<td>unranked</td>
+<td>34</td>
+<td>92</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>89</td>
+<td>King Kong</td>
+<td>1933</td>
+<td>85</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>41</td>
+<td>unranked
+</td></tr>, <tr>
+<td>90</td>
+<td>Eternal Sunshine of the Spotless Mind</td>
+<td>2004</td>
+<td>unranked</td>
+<td>91</td>
+<td>36</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>91</td>
+<td>Arrival</td>
+<td>2016</td>
+<td>51</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>92</td>
+<td>Portrait of a Lady on Fire</td>
+<td>2020</td>
+<td>36</td>
+<td>unranked</td>
+<td>93</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>93</td>
+<td>Nashville</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>59</td>
+<td>73
+</td></tr>, <tr>
+<td>94</td>
+<td>Intolerance</td>
+<td>1916</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>49</td>
+<td>93
+</td></tr>, <tr>
+<td>95</td>
+<td>La La Land</td>
+<td>2016</td>
+<td>78</td>
+<td>unranked</td>
+<td>64</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>96</td>
+<td>Do the Right Thing</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>47</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>97</td>
+<td>Inglourious Basterds</td>
+<td>2009</td>
+<td>unranked</td>
+<td>78</td>
+<td>69</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>98</td>
+<td>The Battle of Algiers</td>
+<td>1966</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>48
+</td></tr>, <tr>
+<td>99</td>
+<td>M</td>
+<td>1931</td>
+<td>unranked</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>56
+</td></tr>, <tr>
+<td>100</td>
+<td>The Wild Bunch</td>
+<td>1969</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>79</td>
+<td>84
+</td></tr>, <tr>
+<td>101</td>
+<td>Star Wars: Return of the Jedi</td>
+<td>1983</td>
+<td>unranked</td>
+<td>87</td>
+<td>77</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>102</td>
+<td>A Clockwork Orange</td>
+<td>1971</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>103</td>
+<td>LA Confidential</td>
+<td>1997</td>
+<td>90</td>
+<td>unranked</td>
+<td>80</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>104</td>
+<td>Titanic</td>
+<td>1997</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>88</td>
+<td>83</td>
+<td>unranked
+</td></tr>, <tr>
+<td>105</td>
+<td>Toy Story</td>
+<td>1995</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>99</td>
+<td>unranked
+</td></tr>, <tr>
+<td>106</td>
+<td>Reservoir Dogs</td>
+<td>1992</td>
+<td>unranked</td>
+<td>90</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>107</td>
+<td>Paddington 2</td>
+<td>2018</td>
+<td>93</td>
+<td>unranked</td>
+<td>98</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>108</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Am%C3%A9lie" title="Amélie">Amelie</a></td>
+<td>2001</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>]
+   Average Rank                                           Film  Year
+0             1                                  The Godfather  1972
+1             2                                   Citizen Kane  1941
+2             3                                     Casablanca  1942
+3             4                         The Godfather, Part II  1974
+4             5                            Singin' in the Rain  1952
+5             6                                         Psycho  1960
+6             7                                    Rear Window  1954
+7             8                                 Apocalypse Now  1979
+8             9                          2001: A Space Odyssey  1968
+9            10                                  Seven Samurai  1954
+10           11                                        Vertigo  1958
+11           12                                    Sunset Blvd  1950
+12           13                                   Modern Times  1936
+13           14                             Lawrence of Arabia  1962
+14           15                             North by Northwest  1959
+15           16                                      Star Wars  1977
+16           17                                       Parasite  2019
+17           18                               Schindler's List  1993
+18           19  Lord of the Rings: The Fellowship of the Ring  2001
+19           20                           Shawshank Redemption  1994
+20           21                          It's a Wonderful Life  1946
+21           22                                   Pulp Fiction  1994
+22           23                              Avengers: Endgame  2019
+23           24                                    City Lights  1931
+24           25                One Flew Over the Cuckoo's Nest  1975
+25           26                                     Goodfellas  1990
+26           27                        Raiders of the Lost Ark  1981
+27           28                                   12 Angry Men  1957
+28           29                       The Silence of the Lambs  1991
+29           30                                    Taxi Driver  1976
+30           31                            Saving Private Ryan  1998
+31           32                     E.T. the Extra Terrestrial  1982
+32           33                                          Alien  1979
+33           34              Spider-Man: Into the Spider-verse  2018
+34           35                                   Blade Runner  1982
+35           36                               Double Indemnity  1944
+36           37                                The Dark Knight  2008
+37           38                               The Wizard of Oz  1939
+38           39  Star Wars: Episode V- The Empire Strikes Back  1980
+39           40                                  The Searchers  1956
+40           41                             Mad Max: Fury Road  2015
+41           42                                      Inception  2010
+42           43          Lord of the Rings: Return of the King  2003
+43           44                                     The Matrix  1999
+44           45                                     Fight Club  1999
+45           46                             Back to the Future  1985
+46           47                          It Happened One Night  1934
+47           48                The Good, the Bad, and the Ugly  1966
+48           49              Lord of the Rings: The Two Towers  2002
+49           50                                  All About Eve  1950
+   Average Rank                                           Film  Year
+0             1                                  The Godfather  1972
+1             2                                   Citizen Kane  1941
+2             3                                     Casablanca  1942
+3             4                         The Godfather, Part II  1974
+4             5                            Singin' in the Rain  1952
+5             6                                         Psycho  1960
+6             7                                    Rear Window  1954
+7             8                                 Apocalypse Now  1979
+8             9                          2001: A Space Odyssey  1968
+9            10                                  Seven Samurai  1954
+10           11                                        Vertigo  1958
+11           12                                    Sunset Blvd  1950
+12           13                                   Modern Times  1936
+13           14                             Lawrence of Arabia  1962
+14           15                             North by Northwest  1959
+15           16                                      Star Wars  1977
+16           17                                       Parasite  2019
+17           18                               Schindler's List  1993
+18           19  Lord of the Rings: The Fellowship of the Ring  2001
+19           20                           Shawshank Redemption  1994
+20           21                          It's a Wonderful Life  1946
+21           22                                   Pulp Fiction  1994
+22           23                              Avengers: Endgame  2019
+23           24                                    City Lights  1931
+24           25                One Flew Over the Cuckoo's Nest  1975
+25           26                                     Goodfellas  1990
+26           27                        Raiders of the Lost Ark  1981
+27           28                                   12 Angry Men  1957
+28           29                       The Silence of the Lambs  1991
+29           30                                    Taxi Driver  1976
+30           31                            Saving Private Ryan  1998
+31           32                     E.T. the Extra Terrestrial  1982
+32           33                                          Alien  1979
+33           34              Spider-Man: Into the Spider-verse  2018
+34           35                                   Blade Runner  1982
+35           36                               Double Indemnity  1944
+36           37                                The Dark Knight  2008
+37           38                               The Wizard of Oz  1939
+38           39  Star Wars: Episode V- The Empire Strikes Back  1980
+39           40                                  The Searchers  1956
+40           41                             Mad Max: Fury Road  2015
+41           42                                      Inception  2010
+42           43          Lord of the Rings: Return of the King  2003
+43           44                                     The Matrix  1999
+44           45                                     Fight Club  1999
+45           46                             Back to the Future  1985
+46           47                          It Happened One Night  1934
+47           48                The Good, the Bad, and the Ugly  1966
+48           49              Lord of the Rings: The Two Towers  2002
+49           50                                  All About Eve  1950
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+rows [<tr>
+<th>Average Rank</th>
+<th>Film</th>
+<th>Year</th>
+<th>Rotten Tomatoes' Top 100<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></th>
+<th>IMDb's Top 250 <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></th>
+<th>Empire's Top 100 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></th>
+<th>AFI's Top 100 <sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></th>
+<th>BFI's Top 100 <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</th></tr>, <tr>
+<td>1</td>
+<td>The Godfather</td>
+<td>1972</td>
+<td>17</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>21
+</td></tr>, <tr>
+<td>2</td>
+<td>Citizen Kane</td>
+<td>1941</td>
+<td>2</td>
+<td>93</td>
+<td>40</td>
+<td>1</td>
+<td>2
+</td></tr>, <tr>
+<td>3</td>
+<td>Casablanca</td>
+<td>1942</td>
+<td>8</td>
+<td>42</td>
+<td>33</td>
+<td>3</td>
+<td>84
+</td></tr>, <tr>
+<td>4</td>
+<td>The Godfather, Part II</td>
+<td>1974</td>
+<td>99</td>
+<td>4</td>
+<td>14</td>
+<td>32</td>
+<td>31
+</td></tr>, <tr>
+<td>5</td>
+<td>Singin' in the Rain</td>
+<td>1952</td>
+<td>52</td>
+<td>85</td>
+<td>67</td>
+<td>5</td>
+<td>20
+</td></tr>, <tr>
+<td>6</td>
+<td>Psycho</td>
+<td>1960</td>
+<td>88</td>
+<td>32</td>
+<td>81</td>
+<td>14</td>
+<td>35
+</td></tr>, <tr>
+<td>7</td>
+<td>Rear Window</td>
+<td>1954</td>
+<td>47</td>
+<td>49</td>
+<td>72</td>
+<td>48</td>
+<td>53
+</td></tr>, <tr>
+<td>8</td>
+<td>Apocalypse Now</td>
+<td>1979</td>
+<td>unranked</td>
+<td>55</td>
+<td>29</td>
+<td>30</td>
+<td>14
+</td></tr>, <tr>
+<td>9</td>
+<td>2001: A Space Odyssey</td>
+<td>1968</td>
+<td>unranked</td>
+<td>89</td>
+<td>23</td>
+<td>15</td>
+<td>6
+</td></tr>, <tr>
+<td>10</td>
+<td>Seven Samurai</td>
+<td>1954</td>
+<td>49</td>
+<td>20</td>
+<td>65</td>
+<td>unranked</td>
+<td>17
+</td></tr>, <tr>
+<td>11</td>
+<td>Vertigo</td>
+<td>1958</td>
+<td>unranked</td>
+<td>99</td>
+<td>50</td>
+<td>9</td>
+<td>1
+</td></tr>, <tr>
+<td>12</td>
+<td>Sunset Blvd</td>
+<td>1950</td>
+<td>21</td>
+<td>60</td>
+<td>unranked</td>
+<td>16</td>
+<td>63
+</td></tr>, <tr>
+<td>13</td>
+<td>Modern Times</td>
+<td>1936</td>
+<td>4</td>
+<td>45</td>
+<td>unranked</td>
+<td>78</td>
+<td>63
+</td></tr>, <tr>
+<td>14</td>
+<td>Lawrence of Arabia</td>
+<td>1962</td>
+<td>unranked</td>
+<td>95</td>
+<td>62</td>
+<td>7</td>
+<td>81
+</td></tr>, <tr>
+<td>15</td>
+<td>North by Northwest</td>
+<td>1959</td>
+<td>79</td>
+<td>98</td>
+<td>unranked</td>
+<td>55</td>
+<td>53
+</td></tr>, <tr>
+<td>16</td>
+<td>Star Wars</td>
+<td>1977</td>
+<td>unranked</td>
+<td>27</td>
+<td>11</td>
+<td>13</td>
+<td>unranked
+</td></tr>, <tr>
+<td>17</td>
+<td>Parasite</td>
+<td>2019</td>
+<td>6</td>
+<td>35</td>
+<td>18</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>18</td>
+<td>Schindler's List</td>
+<td>1993</td>
+<td>unranked</td>
+<td>6</td>
+<td>46</td>
+<td>8</td>
+<td>unranked
+</td></tr>, <tr>
+<td>19</td>
+<td>Lord of the Rings: The Fellowship of the Ring</td>
+<td>2001</td>
+<td>unranked</td>
+<td>9</td>
+<td>1</td>
+<td>50</td>
+<td>unranked
+</td></tr>, <tr>
+<td>20</td>
+<td>Shawshank Redemption</td>
+<td>1994</td>
+<td>unranked</td>
+<td>1</td>
+<td>5</td>
+<td>72</td>
+<td>unranked
+</td></tr>, <tr>
+<td>21</td>
+<td>It's a Wonderful Life</td>
+<td>1946</td>
+<td>unranked</td>
+<td>21</td>
+<td>44</td>
+<td>20</td>
+<td>unranked
+</td></tr>, <tr>
+<td>22</td>
+<td>Pulp Fiction</td>
+<td>1994</td>
+<td>unranked</td>
+<td>8</td>
+<td>7</td>
+<td>94</td>
+<td>unranked
+</td></tr>, <tr>
+<td>23</td>
+<td>Avengers: Endgame</td>
+<td>2019</td>
+<td>7</td>
+<td>81</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>24</td>
+<td>City Lights</td>
+<td>1931</td>
+<td>unranked</td>
+<td>51</td>
+<td>unranked</td>
+<td>11</td>
+<td>50
+</td></tr>, <tr>
+<td>25</td>
+<td>One Flew Over the Cuckoo's Nest</td>
+<td>1975</td>
+<td>unranked</td>
+<td>18</td>
+<td>66</td>
+<td>33</td>
+<td>unranked
+</td></tr>, <tr>
+<td>26</td>
+<td>Goodfellas</td>
+<td>1990</td>
+<td>unranked</td>
+<td>17</td>
+<td>10</td>
+<td>92</td>
+<td>unranked
+</td></tr>, <tr>
+<td>27</td>
+<td>Raiders of the Lost Ark</td>
+<td>1981</td>
+<td>unranked</td>
+<td>56</td>
+<td>9</td>
+<td>66</td>
+<td>unranked
+</td></tr>, <tr>
+<td>28</td>
+<td>12 Angry Men</td>
+<td>1957</td>
+<td>unranked</td>
+<td>5</td>
+<td>42</td>
+<td>87</td>
+<td>unranked
+</td></tr>, <tr>
+<td>29</td>
+<td>The Silence of the Lambs</td>
+<td>1991</td>
+<td>unranked</td>
+<td>22</td>
+<td>41</td>
+<td>74</td>
+<td>unranked
+</td></tr>, <tr>
+<td>30</td>
+<td>Taxi Driver</td>
+<td>1976</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>55</td>
+<td>52</td>
+<td>31
+</td></tr>, <tr>
+<td>31</td>
+<td>Saving Private Ryan</td>
+<td>1998</td>
+<td>unranked</td>
+<td>24</td>
+<td>54</td>
+<td>71</td>
+<td>unranked
+</td></tr>, <tr>
+<td>32</td>
+<td>E.T. the Extra Terrestrial</td>
+<td>1982</td>
+<td>48</td>
+<td>unranked</td>
+<td>79</td>
+<td>24</td>
+<td>unranked
+</td></tr>, <tr>
+<td>33</td>
+<td>Alien</td>
+<td>1979</td>
+<td>84</td>
+<td>50</td>
+<td>21</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>34</td>
+<td>Spider-Man: Into the Spider-verse</td>
+<td>2018</td>
+<td>19</td>
+<td>70</td>
+<td>70</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>35</td>
+<td>Blade Runner</td>
+<td>1982</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>16</td>
+<td>97</td>
+<td>69
+</td></tr>, <tr>
+<td>36</td>
+<td>Double Indemnity</td>
+<td>1944</td>
+<td>54</td>
+<td>100</td>
+<td>unranked</td>
+<td>29</td>
+<td>unranked
+</td></tr>, <tr>
+<td>37</td>
+<td>The Dark Knight</td>
+<td>2008</td>
+<td>unranked</td>
+<td>3</td>
+<td>4</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>38</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/The_Wizard_of_Oz_(1939_film)" title="The Wizard of Oz (1939 film)">The Wizard of Oz</a></td>
+<td>1939</td>
+<td>3</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>10</td>
+<td>unranked
+</td></tr>, <tr>
+<td>39</td>
+<td>Star Wars: Episode V- The Empire Strikes Back</td>
+<td>1980</td>
+<td>unranked</td>
+<td>15</td>
+<td>2</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>40</td>
+<td>The Searchers</td>
+<td>1956</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>12</td>
+<td>7
+</td></tr>, <tr>
+<td>41</td>
+<td>Mad Max: Fury Road</td>
+<td>2015</td>
+<td>18</td>
+<td>unranked</td>
+<td>12</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>42</td>
+<td>Inception</td>
+<td>2010</td>
+<td>unranked</td>
+<td>13</td>
+<td>19</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>43</td>
+<td>Lord of the Rings: Return of the King</td>
+<td>2003</td>
+<td>unranked</td>
+<td>7</td>
+<td>27</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>44</td>
+<td>The Matrix</td>
+<td>1999</td>
+<td>unranked</td>
+<td>16</td>
+<td>20</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>45</td>
+<td>Fight Club</td>
+<td>1999</td>
+<td>unranked</td>
+<td>12</td>
+<td>25</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>46</td>
+<td>Back to the Future</td>
+<td>1985</td>
+<td>unranked</td>
+<td>30</td>
+<td>13</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>47</td>
+<td>It Happened One Night</td>
+<td>1934</td>
+<td>1</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>46</td>
+<td>unranked
+</td></tr>, <tr>
+<td>48</td>
+<td>The Good, the Bad, and the Ugly</td>
+<td>1966</td>
+<td>unranked</td>
+<td>10</td>
+<td>38</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>49</td>
+<td>Lord of the Rings: The Two Towers</td>
+<td>2002</td>
+<td>unranked</td>
+<td>14</td>
+<td>34</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>50</td>
+<td>All About Eve</td>
+<td>1950</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>28</td>
+<td>unranked
+</td></tr>, <tr>
+<td>51</td>
+<td>The General</td>
+<td>1926</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>18</td>
+<td>34
+</td></tr>, <tr>
+<td>52</td>
+<td>Terminator 2: Judgement Day</td>
+<td>1991</td>
+<td>unranked</td>
+<td>29</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>53</td>
+<td>Se7en</td>
+<td>1995</td>
+<td>unranked</td>
+<td>19</td>
+<td>37</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>54</td>
+<td>Raging Bull</td>
+<td>1980</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>4</td>
+<td>53
+</td></tr>, <tr>
+<td>55</td>
+<td>Interstellar</td>
+<td>2014</td>
+<td>unranked</td>
+<td>28</td>
+<td>31</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>56</td>
+<td>Jaws</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>6</td>
+<td>56</td>
+<td>unranked
+</td></tr>, <tr>
+<td>57</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Some_Like_It_Hot" title="Some Like It Hot">Some Like it Hot</a></td>
+<td>1959</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>22</td>
+<td>42
+</td></tr>, <tr>
+<td>58</td>
+<td>The Philadelphia Story</td>
+<td>1940</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>44</td>
+<td>unranked
+</td></tr>, <tr>
+<td>59</td>
+<td>Avengers: Infinity War</td>
+<td>2018</td>
+<td>unranked</td>
+<td>65</td>
+<td>8</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>60</td>
+<td>Gladiator</td>
+<td>2000</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>61</td>
+<td>On the Waterfront</td>
+<td>1954</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>62</td>
+<td>Get Out</td>
+<td>2017</td>
+<td>15</td>
+<td>unranked</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>63</td>
+<td>Moonlight</td>
+<td>2016</td>
+<td>20</td>
+<td>unranked</td>
+<td>59</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>64</td>
+<td>Spirited Away</td>
+<td>2001</td>
+<td>unranked</td>
+<td>31</td>
+<td>49</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>65</td>
+<td>Lady Bird</td>
+<td>2017</td>
+<td>12</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>66</td>
+<td>Aliens</td>
+<td>1986</td>
+<td>unranked</td>
+<td>66</td>
+<td>17</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>67</td>
+<td>Forrest Gump</td>
+<td>1994</td>
+<td>unranked</td>
+<td>11</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked
+</td></tr>, <tr>
+<td>68</td>
+<td>Snow White and the Seven Dwarves</td>
+<td>1937</td>
+<td>56</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>34</td>
+<td>unranked
+</td></tr>, <tr>
+<td>69</td>
+<td>Black Panther</td>
+<td>2018</td>
+<td>5</td>
+<td>unranked</td>
+<td>86</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>70</td>
+<td>Whiplash</td>
+<td>2014</td>
+<td>unranked</td>
+<td>43</td>
+<td>51</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>71</td>
+<td>The Shining</td>
+<td>1980</td>
+<td>unranked</td>
+<td>62</td>
+<td>35</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>72</td>
+<td>Metropolis</td>
+<td>1927</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>35
+</td></tr>, <tr>
+<td>73</td>
+<td>The Maltese Falcon</td>
+<td>1941</td>
+<td>67</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>31</td>
+<td>unranked
+</td></tr>, <tr>
+<td>74</td>
+<td>Chinatown</td>
+<td>1974</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>21</td>
+<td>78
+</td></tr>, <tr>
+<td>75</td>
+<td>The Best Years of Our Lives</td>
+<td>1946</td>
+<td>62</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>37</td>
+<td>unranked
+</td></tr>, <tr>
+<td>76</td>
+<td>Mulholland Drive</td>
+<td>2001</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73</td>
+<td>unranked</td>
+<td>28
+</td></tr>, <tr>
+<td>77</td>
+<td>In the Mood for Love</td>
+<td>2000</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78</td>
+<td>unranked</td>
+<td>24
+</td></tr>, <tr>
+<td>78</td>
+<td>A Quiet Place</td>
+<td>2018</td>
+<td>29</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>79</td>
+<td>Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb</td>
+<td>1964</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>39</td>
+<td>unranked
+</td></tr>, <tr>
+<td>80</td>
+<td>Coco</td>
+<td>2017</td>
+<td>37</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>81</td>
+<td>The Third Man</td>
+<td>1949</td>
+<td>46</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>82</td>
+<td>The Usual Suspects</td>
+<td>1995</td>
+<td>unranked</td>
+<td>39</td>
+<td>82</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>83</td>
+<td>La Grande Illusion</td>
+<td>1937</td>
+<td>50</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>84</td>
+<td>Once Upon a Time in the West</td>
+<td>1968</td>
+<td>unranked</td>
+<td>47</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78
+</td></tr>, <tr>
+<td>85</td>
+<td>A Night at the Opera</td>
+<td>1935</td>
+<td>40</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>85</td>
+<td>unranked
+</td></tr>, <tr>
+<td>86</td>
+<td>Logan</td>
+<td>2017</td>
+<td>34</td>
+<td>unranked</td>
+<td>91</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>87</td>
+<td>Thor: Ragnarok</td>
+<td>2017</td>
+<td>42</td>
+<td>unranked</td>
+<td>83</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>88</td>
+<td>Léon: The Professional</td>
+<td>1994</td>
+<td>unranked</td>
+<td>34</td>
+<td>92</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>89</td>
+<td>King Kong</td>
+<td>1933</td>
+<td>85</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>41</td>
+<td>unranked
+</td></tr>, <tr>
+<td>90</td>
+<td>Eternal Sunshine of the Spotless Mind</td>
+<td>2004</td>
+<td>unranked</td>
+<td>91</td>
+<td>36</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>91</td>
+<td>Arrival</td>
+<td>2016</td>
+<td>51</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>92</td>
+<td>Portrait of a Lady on Fire</td>
+<td>2020</td>
+<td>36</td>
+<td>unranked</td>
+<td>93</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>93</td>
+<td>Nashville</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>59</td>
+<td>73
+</td></tr>, <tr>
+<td>94</td>
+<td>Intolerance</td>
+<td>1916</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>49</td>
+<td>93
+</td></tr>, <tr>
+<td>95</td>
+<td>La La Land</td>
+<td>2016</td>
+<td>78</td>
+<td>unranked</td>
+<td>64</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>96</td>
+<td>Do the Right Thing</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>47</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>97</td>
+<td>Inglourious Basterds</td>
+<td>2009</td>
+<td>unranked</td>
+<td>78</td>
+<td>69</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>98</td>
+<td>The Battle of Algiers</td>
+<td>1966</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>48
+</td></tr>, <tr>
+<td>99</td>
+<td>M</td>
+<td>1931</td>
+<td>unranked</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>56
+</td></tr>, <tr>
+<td>100</td>
+<td>The Wild Bunch</td>
+<td>1969</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>79</td>
+<td>84
+</td></tr>, <tr>
+<td>101</td>
+<td>Star Wars: Return of the Jedi</td>
+<td>1983</td>
+<td>unranked</td>
+<td>87</td>
+<td>77</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>102</td>
+<td>A Clockwork Orange</td>
+<td>1971</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>103</td>
+<td>LA Confidential</td>
+<td>1997</td>
+<td>90</td>
+<td>unranked</td>
+<td>80</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>104</td>
+<td>Titanic</td>
+<td>1997</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>88</td>
+<td>83</td>
+<td>unranked
+</td></tr>, <tr>
+<td>105</td>
+<td>Toy Story</td>
+<td>1995</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>99</td>
+<td>unranked
+</td></tr>, <tr>
+<td>106</td>
+<td>Reservoir Dogs</td>
+<td>1992</td>
+<td>unranked</td>
+<td>90</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>107</td>
+<td>Paddington 2</td>
+<td>2018</td>
+<td>93</td>
+<td>unranked</td>
+<td>98</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>108</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Am%C3%A9lie" title="Amélie">Amelie</a></td>
+<td>2001</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>]
+   Average Rank                                           Film  Year
+0             1                                  The Godfather  1972
+1             2                                   Citizen Kane  1941
+2             3                                     Casablanca  1942
+3             4                         The Godfather, Part II  1974
+4             5                            Singin' in the Rain  1952
+5             6                                         Psycho  1960
+6             7                                    Rear Window  1954
+7             8                                 Apocalypse Now  1979
+8             9                          2001: A Space Odyssey  1968
+9            10                                  Seven Samurai  1954
+10           11                                        Vertigo  1958
+11           12                                    Sunset Blvd  1950
+12           13                                   Modern Times  1936
+13           14                             Lawrence of Arabia  1962
+14           15                             North by Northwest  1959
+15           16                                      Star Wars  1977
+16           17                                       Parasite  2019
+17           18                               Schindler's List  1993
+18           19  Lord of the Rings: The Fellowship of the Ring  2001
+19           20                           Shawshank Redemption  1994
+20           21                          It's a Wonderful Life  1946
+21           22                                   Pulp Fiction  1994
+22           23                              Avengers: Endgame  2019
+23           24                                    City Lights  1931
+24           25                One Flew Over the Cuckoo's Nest  1975
+25           26                                     Goodfellas  1990
+26           27                        Raiders of the Lost Ark  1981
+27           28                                   12 Angry Men  1957
+28           29                       The Silence of the Lambs  1991
+29           30                                    Taxi Driver  1976
+30           31                            Saving Private Ryan  1998
+31           32                     E.T. the Extra Terrestrial  1982
+32           33                                          Alien  1979
+33           34              Spider-Man: Into the Spider-verse  2018
+34           35                                   Blade Runner  1982
+35           36                               Double Indemnity  1944
+36           37                                The Dark Knight  2008
+37           38                               The Wizard of Oz  1939
+38           39  Star Wars: Episode V- The Empire Strikes Back  1980
+39           40                                  The Searchers  1956
+40           41                             Mad Max: Fury Road  2015
+41           42                                      Inception  2010
+42           43          Lord of the Rings: Return of the King  2003
+43           44                                     The Matrix  1999
+44           45                                     Fight Club  1999
+45           46                             Back to the Future  1985
+46           47                          It Happened One Night  1934
+47           48                The Good, the Bad, and the Ugly  1966
+48           49              Lord of the Rings: The Two Towers  2002
+49           50                                  All About Eve  1950
+   Average Rank                                           Film  Year
+0             1                                  The Godfather  1972
+1             2                                   Citizen Kane  1941
+2             3                                     Casablanca  1942
+3             4                         The Godfather, Part II  1974
+4             5                            Singin' in the Rain  1952
+5             6                                         Psycho  1960
+6             7                                    Rear Window  1954
+7             8                                 Apocalypse Now  1979
+8             9                          2001: A Space Odyssey  1968
+9            10                                  Seven Samurai  1954
+10           11                                        Vertigo  1958
+11           12                                    Sunset Blvd  1950
+12           13                                   Modern Times  1936
+13           14                             Lawrence of Arabia  1962
+14           15                             North by Northwest  1959
+15           16                                      Star Wars  1977
+16           17                                       Parasite  2019
+17           18                               Schindler's List  1993
+18           19  Lord of the Rings: The Fellowship of the Ring  2001
+19           20                           Shawshank Redemption  1994
+20           21                          It's a Wonderful Life  1946
+21           22                                   Pulp Fiction  1994
+22           23                              Avengers: Endgame  2019
+23           24                                    City Lights  1931
+24           25                One Flew Over the Cuckoo's Nest  1975
+25           26                                     Goodfellas  1990
+26           27                        Raiders of the Lost Ark  1981
+27           28                                   12 Angry Men  1957
+28           29                       The Silence of the Lambs  1991
+29           30                                    Taxi Driver  1976
+30           31                            Saving Private Ryan  1998
+31           32                     E.T. the Extra Terrestrial  1982
+32           33                                          Alien  1979
+33           34              Spider-Man: Into the Spider-verse  2018
+34           35                                   Blade Runner  1982
+35           36                               Double Indemnity  1944
+36           37                                The Dark Knight  2008
+37           38                               The Wizard of Oz  1939
+38           39  Star Wars: Episode V- The Empire Strikes Back  1980
+39           40                                  The Searchers  1956
+40           41                             Mad Max: Fury Road  2015
+41           42                                      Inception  2010
+42           43          Lord of the Rings: Return of the King  2003
+43           44                                     The Matrix  1999
+44           45                                     Fight Club  1999
+45           46                             Back to the Future  1985
+46           47                          It Happened One Night  1934
+47           48                The Good, the Bad, and the Ugly  1966
+48           49              Lord of the Rings: The Two Towers  2002
+49           50                                  All About Eve  1950
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+rows [<tr>
+<th>Average Rank</th>
+<th>Film</th>
+<th>Year</th>
+<th>Rotten Tomatoes' Top 100<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></th>
+<th>IMDb's Top 250 <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></th>
+<th>Empire's Top 100 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></th>
+<th>AFI's Top 100 <sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></th>
+<th>BFI's Top 100 <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</th></tr>, <tr>
+<td>1</td>
+<td>The Godfather</td>
+<td>1972</td>
+<td>17</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>21
+</td></tr>, <tr>
+<td>2</td>
+<td>Citizen Kane</td>
+<td>1941</td>
+<td>2</td>
+<td>93</td>
+<td>40</td>
+<td>1</td>
+<td>2
+</td></tr>, <tr>
+<td>3</td>
+<td>Casablanca</td>
+<td>1942</td>
+<td>8</td>
+<td>42</td>
+<td>33</td>
+<td>3</td>
+<td>84
+</td></tr>, <tr>
+<td>4</td>
+<td>The Godfather, Part II</td>
+<td>1974</td>
+<td>99</td>
+<td>4</td>
+<td>14</td>
+<td>32</td>
+<td>31
+</td></tr>, <tr>
+<td>5</td>
+<td>Singin' in the Rain</td>
+<td>1952</td>
+<td>52</td>
+<td>85</td>
+<td>67</td>
+<td>5</td>
+<td>20
+</td></tr>, <tr>
+<td>6</td>
+<td>Psycho</td>
+<td>1960</td>
+<td>88</td>
+<td>32</td>
+<td>81</td>
+<td>14</td>
+<td>35
+</td></tr>, <tr>
+<td>7</td>
+<td>Rear Window</td>
+<td>1954</td>
+<td>47</td>
+<td>49</td>
+<td>72</td>
+<td>48</td>
+<td>53
+</td></tr>, <tr>
+<td>8</td>
+<td>Apocalypse Now</td>
+<td>1979</td>
+<td>unranked</td>
+<td>55</td>
+<td>29</td>
+<td>30</td>
+<td>14
+</td></tr>, <tr>
+<td>9</td>
+<td>2001: A Space Odyssey</td>
+<td>1968</td>
+<td>unranked</td>
+<td>89</td>
+<td>23</td>
+<td>15</td>
+<td>6
+</td></tr>, <tr>
+<td>10</td>
+<td>Seven Samurai</td>
+<td>1954</td>
+<td>49</td>
+<td>20</td>
+<td>65</td>
+<td>unranked</td>
+<td>17
+</td></tr>, <tr>
+<td>11</td>
+<td>Vertigo</td>
+<td>1958</td>
+<td>unranked</td>
+<td>99</td>
+<td>50</td>
+<td>9</td>
+<td>1
+</td></tr>, <tr>
+<td>12</td>
+<td>Sunset Blvd</td>
+<td>1950</td>
+<td>21</td>
+<td>60</td>
+<td>unranked</td>
+<td>16</td>
+<td>63
+</td></tr>, <tr>
+<td>13</td>
+<td>Modern Times</td>
+<td>1936</td>
+<td>4</td>
+<td>45</td>
+<td>unranked</td>
+<td>78</td>
+<td>63
+</td></tr>, <tr>
+<td>14</td>
+<td>Lawrence of Arabia</td>
+<td>1962</td>
+<td>unranked</td>
+<td>95</td>
+<td>62</td>
+<td>7</td>
+<td>81
+</td></tr>, <tr>
+<td>15</td>
+<td>North by Northwest</td>
+<td>1959</td>
+<td>79</td>
+<td>98</td>
+<td>unranked</td>
+<td>55</td>
+<td>53
+</td></tr>, <tr>
+<td>16</td>
+<td>Star Wars</td>
+<td>1977</td>
+<td>unranked</td>
+<td>27</td>
+<td>11</td>
+<td>13</td>
+<td>unranked
+</td></tr>, <tr>
+<td>17</td>
+<td>Parasite</td>
+<td>2019</td>
+<td>6</td>
+<td>35</td>
+<td>18</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>18</td>
+<td>Schindler's List</td>
+<td>1993</td>
+<td>unranked</td>
+<td>6</td>
+<td>46</td>
+<td>8</td>
+<td>unranked
+</td></tr>, <tr>
+<td>19</td>
+<td>Lord of the Rings: The Fellowship of the Ring</td>
+<td>2001</td>
+<td>unranked</td>
+<td>9</td>
+<td>1</td>
+<td>50</td>
+<td>unranked
+</td></tr>, <tr>
+<td>20</td>
+<td>Shawshank Redemption</td>
+<td>1994</td>
+<td>unranked</td>
+<td>1</td>
+<td>5</td>
+<td>72</td>
+<td>unranked
+</td></tr>, <tr>
+<td>21</td>
+<td>It's a Wonderful Life</td>
+<td>1946</td>
+<td>unranked</td>
+<td>21</td>
+<td>44</td>
+<td>20</td>
+<td>unranked
+</td></tr>, <tr>
+<td>22</td>
+<td>Pulp Fiction</td>
+<td>1994</td>
+<td>unranked</td>
+<td>8</td>
+<td>7</td>
+<td>94</td>
+<td>unranked
+</td></tr>, <tr>
+<td>23</td>
+<td>Avengers: Endgame</td>
+<td>2019</td>
+<td>7</td>
+<td>81</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>24</td>
+<td>City Lights</td>
+<td>1931</td>
+<td>unranked</td>
+<td>51</td>
+<td>unranked</td>
+<td>11</td>
+<td>50
+</td></tr>, <tr>
+<td>25</td>
+<td>One Flew Over the Cuckoo's Nest</td>
+<td>1975</td>
+<td>unranked</td>
+<td>18</td>
+<td>66</td>
+<td>33</td>
+<td>unranked
+</td></tr>, <tr>
+<td>26</td>
+<td>Goodfellas</td>
+<td>1990</td>
+<td>unranked</td>
+<td>17</td>
+<td>10</td>
+<td>92</td>
+<td>unranked
+</td></tr>, <tr>
+<td>27</td>
+<td>Raiders of the Lost Ark</td>
+<td>1981</td>
+<td>unranked</td>
+<td>56</td>
+<td>9</td>
+<td>66</td>
+<td>unranked
+</td></tr>, <tr>
+<td>28</td>
+<td>12 Angry Men</td>
+<td>1957</td>
+<td>unranked</td>
+<td>5</td>
+<td>42</td>
+<td>87</td>
+<td>unranked
+</td></tr>, <tr>
+<td>29</td>
+<td>The Silence of the Lambs</td>
+<td>1991</td>
+<td>unranked</td>
+<td>22</td>
+<td>41</td>
+<td>74</td>
+<td>unranked
+</td></tr>, <tr>
+<td>30</td>
+<td>Taxi Driver</td>
+<td>1976</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>55</td>
+<td>52</td>
+<td>31
+</td></tr>, <tr>
+<td>31</td>
+<td>Saving Private Ryan</td>
+<td>1998</td>
+<td>unranked</td>
+<td>24</td>
+<td>54</td>
+<td>71</td>
+<td>unranked
+</td></tr>, <tr>
+<td>32</td>
+<td>E.T. the Extra Terrestrial</td>
+<td>1982</td>
+<td>48</td>
+<td>unranked</td>
+<td>79</td>
+<td>24</td>
+<td>unranked
+</td></tr>, <tr>
+<td>33</td>
+<td>Alien</td>
+<td>1979</td>
+<td>84</td>
+<td>50</td>
+<td>21</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>34</td>
+<td>Spider-Man: Into the Spider-verse</td>
+<td>2018</td>
+<td>19</td>
+<td>70</td>
+<td>70</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>35</td>
+<td>Blade Runner</td>
+<td>1982</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>16</td>
+<td>97</td>
+<td>69
+</td></tr>, <tr>
+<td>36</td>
+<td>Double Indemnity</td>
+<td>1944</td>
+<td>54</td>
+<td>100</td>
+<td>unranked</td>
+<td>29</td>
+<td>unranked
+</td></tr>, <tr>
+<td>37</td>
+<td>The Dark Knight</td>
+<td>2008</td>
+<td>unranked</td>
+<td>3</td>
+<td>4</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>38</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/The_Wizard_of_Oz_(1939_film)" title="The Wizard of Oz (1939 film)">The Wizard of Oz</a></td>
+<td>1939</td>
+<td>3</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>10</td>
+<td>unranked
+</td></tr>, <tr>
+<td>39</td>
+<td>Star Wars: Episode V- The Empire Strikes Back</td>
+<td>1980</td>
+<td>unranked</td>
+<td>15</td>
+<td>2</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>40</td>
+<td>The Searchers</td>
+<td>1956</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>12</td>
+<td>7
+</td></tr>, <tr>
+<td>41</td>
+<td>Mad Max: Fury Road</td>
+<td>2015</td>
+<td>18</td>
+<td>unranked</td>
+<td>12</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>42</td>
+<td>Inception</td>
+<td>2010</td>
+<td>unranked</td>
+<td>13</td>
+<td>19</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>43</td>
+<td>Lord of the Rings: Return of the King</td>
+<td>2003</td>
+<td>unranked</td>
+<td>7</td>
+<td>27</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>44</td>
+<td>The Matrix</td>
+<td>1999</td>
+<td>unranked</td>
+<td>16</td>
+<td>20</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>45</td>
+<td>Fight Club</td>
+<td>1999</td>
+<td>unranked</td>
+<td>12</td>
+<td>25</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>46</td>
+<td>Back to the Future</td>
+<td>1985</td>
+<td>unranked</td>
+<td>30</td>
+<td>13</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>47</td>
+<td>It Happened One Night</td>
+<td>1934</td>
+<td>1</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>46</td>
+<td>unranked
+</td></tr>, <tr>
+<td>48</td>
+<td>The Good, the Bad, and the Ugly</td>
+<td>1966</td>
+<td>unranked</td>
+<td>10</td>
+<td>38</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>49</td>
+<td>Lord of the Rings: The Two Towers</td>
+<td>2002</td>
+<td>unranked</td>
+<td>14</td>
+<td>34</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>50</td>
+<td>All About Eve</td>
+<td>1950</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>28</td>
+<td>unranked
+</td></tr>, <tr>
+<td>51</td>
+<td>The General</td>
+<td>1926</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>18</td>
+<td>34
+</td></tr>, <tr>
+<td>52</td>
+<td>Terminator 2: Judgement Day</td>
+<td>1991</td>
+<td>unranked</td>
+<td>29</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>53</td>
+<td>Se7en</td>
+<td>1995</td>
+<td>unranked</td>
+<td>19</td>
+<td>37</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>54</td>
+<td>Raging Bull</td>
+<td>1980</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>4</td>
+<td>53
+</td></tr>, <tr>
+<td>55</td>
+<td>Interstellar</td>
+<td>2014</td>
+<td>unranked</td>
+<td>28</td>
+<td>31</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>56</td>
+<td>Jaws</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>6</td>
+<td>56</td>
+<td>unranked
+</td></tr>, <tr>
+<td>57</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Some_Like_It_Hot" title="Some Like It Hot">Some Like it Hot</a></td>
+<td>1959</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>22</td>
+<td>42
+</td></tr>, <tr>
+<td>58</td>
+<td>The Philadelphia Story</td>
+<td>1940</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>44</td>
+<td>unranked
+</td></tr>, <tr>
+<td>59</td>
+<td>Avengers: Infinity War</td>
+<td>2018</td>
+<td>unranked</td>
+<td>65</td>
+<td>8</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>60</td>
+<td>Gladiator</td>
+<td>2000</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>61</td>
+<td>On the Waterfront</td>
+<td>1954</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>62</td>
+<td>Get Out</td>
+<td>2017</td>
+<td>15</td>
+<td>unranked</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>63</td>
+<td>Moonlight</td>
+<td>2016</td>
+<td>20</td>
+<td>unranked</td>
+<td>59</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>64</td>
+<td>Spirited Away</td>
+<td>2001</td>
+<td>unranked</td>
+<td>31</td>
+<td>49</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>65</td>
+<td>Lady Bird</td>
+<td>2017</td>
+<td>12</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>66</td>
+<td>Aliens</td>
+<td>1986</td>
+<td>unranked</td>
+<td>66</td>
+<td>17</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>67</td>
+<td>Forrest Gump</td>
+<td>1994</td>
+<td>unranked</td>
+<td>11</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked
+</td></tr>, <tr>
+<td>68</td>
+<td>Snow White and the Seven Dwarves</td>
+<td>1937</td>
+<td>56</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>34</td>
+<td>unranked
+</td></tr>, <tr>
+<td>69</td>
+<td>Black Panther</td>
+<td>2018</td>
+<td>5</td>
+<td>unranked</td>
+<td>86</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>70</td>
+<td>Whiplash</td>
+<td>2014</td>
+<td>unranked</td>
+<td>43</td>
+<td>51</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>71</td>
+<td>The Shining</td>
+<td>1980</td>
+<td>unranked</td>
+<td>62</td>
+<td>35</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>72</td>
+<td>Metropolis</td>
+<td>1927</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>35
+</td></tr>, <tr>
+<td>73</td>
+<td>The Maltese Falcon</td>
+<td>1941</td>
+<td>67</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>31</td>
+<td>unranked
+</td></tr>, <tr>
+<td>74</td>
+<td>Chinatown</td>
+<td>1974</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>21</td>
+<td>78
+</td></tr>, <tr>
+<td>75</td>
+<td>The Best Years of Our Lives</td>
+<td>1946</td>
+<td>62</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>37</td>
+<td>unranked
+</td></tr>, <tr>
+<td>76</td>
+<td>Mulholland Drive</td>
+<td>2001</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73</td>
+<td>unranked</td>
+<td>28
+</td></tr>, <tr>
+<td>77</td>
+<td>In the Mood for Love</td>
+<td>2000</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78</td>
+<td>unranked</td>
+<td>24
+</td></tr>, <tr>
+<td>78</td>
+<td>A Quiet Place</td>
+<td>2018</td>
+<td>29</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>79</td>
+<td>Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb</td>
+<td>1964</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>39</td>
+<td>unranked
+</td></tr>, <tr>
+<td>80</td>
+<td>Coco</td>
+<td>2017</td>
+<td>37</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>81</td>
+<td>The Third Man</td>
+<td>1949</td>
+<td>46</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>82</td>
+<td>The Usual Suspects</td>
+<td>1995</td>
+<td>unranked</td>
+<td>39</td>
+<td>82</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>83</td>
+<td>La Grande Illusion</td>
+<td>1937</td>
+<td>50</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>84</td>
+<td>Once Upon a Time in the West</td>
+<td>1968</td>
+<td>unranked</td>
+<td>47</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78
+</td></tr>, <tr>
+<td>85</td>
+<td>A Night at the Opera</td>
+<td>1935</td>
+<td>40</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>85</td>
+<td>unranked
+</td></tr>, <tr>
+<td>86</td>
+<td>Logan</td>
+<td>2017</td>
+<td>34</td>
+<td>unranked</td>
+<td>91</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>87</td>
+<td>Thor: Ragnarok</td>
+<td>2017</td>
+<td>42</td>
+<td>unranked</td>
+<td>83</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>88</td>
+<td>Léon: The Professional</td>
+<td>1994</td>
+<td>unranked</td>
+<td>34</td>
+<td>92</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>89</td>
+<td>King Kong</td>
+<td>1933</td>
+<td>85</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>41</td>
+<td>unranked
+</td></tr>, <tr>
+<td>90</td>
+<td>Eternal Sunshine of the Spotless Mind</td>
+<td>2004</td>
+<td>unranked</td>
+<td>91</td>
+<td>36</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>91</td>
+<td>Arrival</td>
+<td>2016</td>
+<td>51</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>92</td>
+<td>Portrait of a Lady on Fire</td>
+<td>2020</td>
+<td>36</td>
+<td>unranked</td>
+<td>93</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>93</td>
+<td>Nashville</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>59</td>
+<td>73
+</td></tr>, <tr>
+<td>94</td>
+<td>Intolerance</td>
+<td>1916</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>49</td>
+<td>93
+</td></tr>, <tr>
+<td>95</td>
+<td>La La Land</td>
+<td>2016</td>
+<td>78</td>
+<td>unranked</td>
+<td>64</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>96</td>
+<td>Do the Right Thing</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>47</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>97</td>
+<td>Inglourious Basterds</td>
+<td>2009</td>
+<td>unranked</td>
+<td>78</td>
+<td>69</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>98</td>
+<td>The Battle of Algiers</td>
+<td>1966</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>48
+</td></tr>, <tr>
+<td>99</td>
+<td>M</td>
+<td>1931</td>
+<td>unranked</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>56
+</td></tr>, <tr>
+<td>100</td>
+<td>The Wild Bunch</td>
+<td>1969</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>79</td>
+<td>84
+</td></tr>, <tr>
+<td>101</td>
+<td>Star Wars: Return of the Jedi</td>
+<td>1983</td>
+<td>unranked</td>
+<td>87</td>
+<td>77</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>102</td>
+<td>A Clockwork Orange</td>
+<td>1971</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>103</td>
+<td>LA Confidential</td>
+<td>1997</td>
+<td>90</td>
+<td>unranked</td>
+<td>80</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>104</td>
+<td>Titanic</td>
+<td>1997</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>88</td>
+<td>83</td>
+<td>unranked
+</td></tr>, <tr>
+<td>105</td>
+<td>Toy Story</td>
+<td>1995</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>99</td>
+<td>unranked
+</td></tr>, <tr>
+<td>106</td>
+<td>Reservoir Dogs</td>
+<td>1992</td>
+<td>unranked</td>
+<td>90</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>107</td>
+<td>Paddington 2</td>
+<td>2018</td>
+<td>93</td>
+<td>unranked</td>
+<td>98</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>108</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Am%C3%A9lie" title="Amélie">Amelie</a></td>
+<td>2001</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>]
+   Average Rank                                           Film  Year Rotten Tomatoes' Top 100
+0             1                                  The Godfather  1972                       17
+1             2                                   Citizen Kane  1941                        2
+2             3                                     Casablanca  1942                        8
+3             4                         The Godfather, Part II  1974                       99
+4             5                            Singin' in the Rain  1952                       52
+5             6                                         Psycho  1960                       88
+6             7                                    Rear Window  1954                       47
+7             8                                 Apocalypse Now  1979                 unranked
+8             9                          2001: A Space Odyssey  1968                 unranked
+9            10                                  Seven Samurai  1954                       49
+10           11                                        Vertigo  1958                 unranked
+11           12                                    Sunset Blvd  1950                       21
+12           13                                   Modern Times  1936                        4
+13           14                             Lawrence of Arabia  1962                 unranked
+14           15                             North by Northwest  1959                       79
+15           16                                      Star Wars  1977                 unranked
+16           17                                       Parasite  2019                        6
+17           18                               Schindler's List  1993                 unranked
+18           19  Lord of the Rings: The Fellowship of the Ring  2001                 unranked
+19           20                           Shawshank Redemption  1994                 unranked
+20           21                          It's a Wonderful Life  1946                 unranked
+21           22                                   Pulp Fiction  1994                 unranked
+22           23                              Avengers: Endgame  2019                        7
+23           24                                    City Lights  1931                 unranked
+24           25                One Flew Over the Cuckoo's Nest  1975                 unranked
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+rows [<tr>
+<th>Average Rank</th>
+<th>Film</th>
+<th>Year</th>
+<th>Rotten Tomatoes' Top 100<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></th>
+<th>IMDb's Top 250 <sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></th>
+<th>Empire's Top 100 <sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup></th>
+<th>AFI's Top 100 <sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup></th>
+<th>BFI's Top 100 <sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</th></tr>, <tr>
+<td>1</td>
+<td>The Godfather</td>
+<td>1972</td>
+<td>17</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>21
+</td></tr>, <tr>
+<td>2</td>
+<td>Citizen Kane</td>
+<td>1941</td>
+<td>2</td>
+<td>93</td>
+<td>40</td>
+<td>1</td>
+<td>2
+</td></tr>, <tr>
+<td>3</td>
+<td>Casablanca</td>
+<td>1942</td>
+<td>8</td>
+<td>42</td>
+<td>33</td>
+<td>3</td>
+<td>84
+</td></tr>, <tr>
+<td>4</td>
+<td>The Godfather, Part II</td>
+<td>1974</td>
+<td>99</td>
+<td>4</td>
+<td>14</td>
+<td>32</td>
+<td>31
+</td></tr>, <tr>
+<td>5</td>
+<td>Singin' in the Rain</td>
+<td>1952</td>
+<td>52</td>
+<td>85</td>
+<td>67</td>
+<td>5</td>
+<td>20
+</td></tr>, <tr>
+<td>6</td>
+<td>Psycho</td>
+<td>1960</td>
+<td>88</td>
+<td>32</td>
+<td>81</td>
+<td>14</td>
+<td>35
+</td></tr>, <tr>
+<td>7</td>
+<td>Rear Window</td>
+<td>1954</td>
+<td>47</td>
+<td>49</td>
+<td>72</td>
+<td>48</td>
+<td>53
+</td></tr>, <tr>
+<td>8</td>
+<td>Apocalypse Now</td>
+<td>1979</td>
+<td>unranked</td>
+<td>55</td>
+<td>29</td>
+<td>30</td>
+<td>14
+</td></tr>, <tr>
+<td>9</td>
+<td>2001: A Space Odyssey</td>
+<td>1968</td>
+<td>unranked</td>
+<td>89</td>
+<td>23</td>
+<td>15</td>
+<td>6
+</td></tr>, <tr>
+<td>10</td>
+<td>Seven Samurai</td>
+<td>1954</td>
+<td>49</td>
+<td>20</td>
+<td>65</td>
+<td>unranked</td>
+<td>17
+</td></tr>, <tr>
+<td>11</td>
+<td>Vertigo</td>
+<td>1958</td>
+<td>unranked</td>
+<td>99</td>
+<td>50</td>
+<td>9</td>
+<td>1
+</td></tr>, <tr>
+<td>12</td>
+<td>Sunset Blvd</td>
+<td>1950</td>
+<td>21</td>
+<td>60</td>
+<td>unranked</td>
+<td>16</td>
+<td>63
+</td></tr>, <tr>
+<td>13</td>
+<td>Modern Times</td>
+<td>1936</td>
+<td>4</td>
+<td>45</td>
+<td>unranked</td>
+<td>78</td>
+<td>63
+</td></tr>, <tr>
+<td>14</td>
+<td>Lawrence of Arabia</td>
+<td>1962</td>
+<td>unranked</td>
+<td>95</td>
+<td>62</td>
+<td>7</td>
+<td>81
+</td></tr>, <tr>
+<td>15</td>
+<td>North by Northwest</td>
+<td>1959</td>
+<td>79</td>
+<td>98</td>
+<td>unranked</td>
+<td>55</td>
+<td>53
+</td></tr>, <tr>
+<td>16</td>
+<td>Star Wars</td>
+<td>1977</td>
+<td>unranked</td>
+<td>27</td>
+<td>11</td>
+<td>13</td>
+<td>unranked
+</td></tr>, <tr>
+<td>17</td>
+<td>Parasite</td>
+<td>2019</td>
+<td>6</td>
+<td>35</td>
+<td>18</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>18</td>
+<td>Schindler's List</td>
+<td>1993</td>
+<td>unranked</td>
+<td>6</td>
+<td>46</td>
+<td>8</td>
+<td>unranked
+</td></tr>, <tr>
+<td>19</td>
+<td>Lord of the Rings: The Fellowship of the Ring</td>
+<td>2001</td>
+<td>unranked</td>
+<td>9</td>
+<td>1</td>
+<td>50</td>
+<td>unranked
+</td></tr>, <tr>
+<td>20</td>
+<td>Shawshank Redemption</td>
+<td>1994</td>
+<td>unranked</td>
+<td>1</td>
+<td>5</td>
+<td>72</td>
+<td>unranked
+</td></tr>, <tr>
+<td>21</td>
+<td>It's a Wonderful Life</td>
+<td>1946</td>
+<td>unranked</td>
+<td>21</td>
+<td>44</td>
+<td>20</td>
+<td>unranked
+</td></tr>, <tr>
+<td>22</td>
+<td>Pulp Fiction</td>
+<td>1994</td>
+<td>unranked</td>
+<td>8</td>
+<td>7</td>
+<td>94</td>
+<td>unranked
+</td></tr>, <tr>
+<td>23</td>
+<td>Avengers: Endgame</td>
+<td>2019</td>
+<td>7</td>
+<td>81</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>24</td>
+<td>City Lights</td>
+<td>1931</td>
+<td>unranked</td>
+<td>51</td>
+<td>unranked</td>
+<td>11</td>
+<td>50
+</td></tr>, <tr>
+<td>25</td>
+<td>One Flew Over the Cuckoo's Nest</td>
+<td>1975</td>
+<td>unranked</td>
+<td>18</td>
+<td>66</td>
+<td>33</td>
+<td>unranked
+</td></tr>, <tr>
+<td>26</td>
+<td>Goodfellas</td>
+<td>1990</td>
+<td>unranked</td>
+<td>17</td>
+<td>10</td>
+<td>92</td>
+<td>unranked
+</td></tr>, <tr>
+<td>27</td>
+<td>Raiders of the Lost Ark</td>
+<td>1981</td>
+<td>unranked</td>
+<td>56</td>
+<td>9</td>
+<td>66</td>
+<td>unranked
+</td></tr>, <tr>
+<td>28</td>
+<td>12 Angry Men</td>
+<td>1957</td>
+<td>unranked</td>
+<td>5</td>
+<td>42</td>
+<td>87</td>
+<td>unranked
+</td></tr>, <tr>
+<td>29</td>
+<td>The Silence of the Lambs</td>
+<td>1991</td>
+<td>unranked</td>
+<td>22</td>
+<td>41</td>
+<td>74</td>
+<td>unranked
+</td></tr>, <tr>
+<td>30</td>
+<td>Taxi Driver</td>
+<td>1976</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>55</td>
+<td>52</td>
+<td>31
+</td></tr>, <tr>
+<td>31</td>
+<td>Saving Private Ryan</td>
+<td>1998</td>
+<td>unranked</td>
+<td>24</td>
+<td>54</td>
+<td>71</td>
+<td>unranked
+</td></tr>, <tr>
+<td>32</td>
+<td>E.T. the Extra Terrestrial</td>
+<td>1982</td>
+<td>48</td>
+<td>unranked</td>
+<td>79</td>
+<td>24</td>
+<td>unranked
+</td></tr>, <tr>
+<td>33</td>
+<td>Alien</td>
+<td>1979</td>
+<td>84</td>
+<td>50</td>
+<td>21</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>34</td>
+<td>Spider-Man: Into the Spider-verse</td>
+<td>2018</td>
+<td>19</td>
+<td>70</td>
+<td>70</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>35</td>
+<td>Blade Runner</td>
+<td>1982</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>16</td>
+<td>97</td>
+<td>69
+</td></tr>, <tr>
+<td>36</td>
+<td>Double Indemnity</td>
+<td>1944</td>
+<td>54</td>
+<td>100</td>
+<td>unranked</td>
+<td>29</td>
+<td>unranked
+</td></tr>, <tr>
+<td>37</td>
+<td>The Dark Knight</td>
+<td>2008</td>
+<td>unranked</td>
+<td>3</td>
+<td>4</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>38</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/The_Wizard_of_Oz_(1939_film)" title="The Wizard of Oz (1939 film)">The Wizard of Oz</a></td>
+<td>1939</td>
+<td>3</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>10</td>
+<td>unranked
+</td></tr>, <tr>
+<td>39</td>
+<td>Star Wars: Episode V- The Empire Strikes Back</td>
+<td>1980</td>
+<td>unranked</td>
+<td>15</td>
+<td>2</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>40</td>
+<td>The Searchers</td>
+<td>1956</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>12</td>
+<td>7
+</td></tr>, <tr>
+<td>41</td>
+<td>Mad Max: Fury Road</td>
+<td>2015</td>
+<td>18</td>
+<td>unranked</td>
+<td>12</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>42</td>
+<td>Inception</td>
+<td>2010</td>
+<td>unranked</td>
+<td>13</td>
+<td>19</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>43</td>
+<td>Lord of the Rings: Return of the King</td>
+<td>2003</td>
+<td>unranked</td>
+<td>7</td>
+<td>27</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>44</td>
+<td>The Matrix</td>
+<td>1999</td>
+<td>unranked</td>
+<td>16</td>
+<td>20</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>45</td>
+<td>Fight Club</td>
+<td>1999</td>
+<td>unranked</td>
+<td>12</td>
+<td>25</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>46</td>
+<td>Back to the Future</td>
+<td>1985</td>
+<td>unranked</td>
+<td>30</td>
+<td>13</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>47</td>
+<td>It Happened One Night</td>
+<td>1934</td>
+<td>1</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>46</td>
+<td>unranked
+</td></tr>, <tr>
+<td>48</td>
+<td>The Good, the Bad, and the Ugly</td>
+<td>1966</td>
+<td>unranked</td>
+<td>10</td>
+<td>38</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>49</td>
+<td>Lord of the Rings: The Two Towers</td>
+<td>2002</td>
+<td>unranked</td>
+<td>14</td>
+<td>34</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>50</td>
+<td>All About Eve</td>
+<td>1950</td>
+<td>22</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>28</td>
+<td>unranked
+</td></tr>, <tr>
+<td>51</td>
+<td>The General</td>
+<td>1926</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>18</td>
+<td>34
+</td></tr>, <tr>
+<td>52</td>
+<td>Terminator 2: Judgement Day</td>
+<td>1991</td>
+<td>unranked</td>
+<td>29</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>53</td>
+<td>Se7en</td>
+<td>1995</td>
+<td>unranked</td>
+<td>19</td>
+<td>37</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>54</td>
+<td>Raging Bull</td>
+<td>1980</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>4</td>
+<td>53
+</td></tr>, <tr>
+<td>55</td>
+<td>Interstellar</td>
+<td>2014</td>
+<td>unranked</td>
+<td>28</td>
+<td>31</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>56</td>
+<td>Jaws</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>6</td>
+<td>56</td>
+<td>unranked
+</td></tr>, <tr>
+<td>57</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Some_Like_It_Hot" title="Some Like It Hot">Some Like it Hot</a></td>
+<td>1959</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>22</td>
+<td>42
+</td></tr>, <tr>
+<td>58</td>
+<td>The Philadelphia Story</td>
+<td>1940</td>
+<td>24</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>44</td>
+<td>unranked
+</td></tr>, <tr>
+<td>59</td>
+<td>Avengers: Infinity War</td>
+<td>2018</td>
+<td>unranked</td>
+<td>65</td>
+<td>8</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>60</td>
+<td>Gladiator</td>
+<td>2000</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>61</td>
+<td>On the Waterfront</td>
+<td>1954</td>
+<td>unranked</td>
+<td>38</td>
+<td>39</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>62</td>
+<td>Get Out</td>
+<td>2017</td>
+<td>15</td>
+<td>unranked</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>63</td>
+<td>Moonlight</td>
+<td>2016</td>
+<td>20</td>
+<td>unranked</td>
+<td>59</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>64</td>
+<td>Spirited Away</td>
+<td>2001</td>
+<td>unranked</td>
+<td>31</td>
+<td>49</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>65</td>
+<td>Lady Bird</td>
+<td>2017</td>
+<td>12</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>66</td>
+<td>Aliens</td>
+<td>1986</td>
+<td>unranked</td>
+<td>66</td>
+<td>17</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>67</td>
+<td>Forrest Gump</td>
+<td>1994</td>
+<td>unranked</td>
+<td>11</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked
+</td></tr>, <tr>
+<td>68</td>
+<td>Snow White and the Seven Dwarves</td>
+<td>1937</td>
+<td>56</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>34</td>
+<td>unranked
+</td></tr>, <tr>
+<td>69</td>
+<td>Black Panther</td>
+<td>2018</td>
+<td>5</td>
+<td>unranked</td>
+<td>86</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>70</td>
+<td>Whiplash</td>
+<td>2014</td>
+<td>unranked</td>
+<td>43</td>
+<td>51</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>71</td>
+<td>The Shining</td>
+<td>1980</td>
+<td>unranked</td>
+<td>62</td>
+<td>35</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>72</td>
+<td>Metropolis</td>
+<td>1927</td>
+<td>63</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>35
+</td></tr>, <tr>
+<td>73</td>
+<td>The Maltese Falcon</td>
+<td>1941</td>
+<td>67</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>31</td>
+<td>unranked
+</td></tr>, <tr>
+<td>74</td>
+<td>Chinatown</td>
+<td>1974</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>21</td>
+<td>78
+</td></tr>, <tr>
+<td>75</td>
+<td>The Best Years of Our Lives</td>
+<td>1946</td>
+<td>62</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>37</td>
+<td>unranked
+</td></tr>, <tr>
+<td>76</td>
+<td>Mulholland Drive</td>
+<td>2001</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73</td>
+<td>unranked</td>
+<td>28
+</td></tr>, <tr>
+<td>77</td>
+<td>In the Mood for Love</td>
+<td>2000</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78</td>
+<td>unranked</td>
+<td>24
+</td></tr>, <tr>
+<td>78</td>
+<td>A Quiet Place</td>
+<td>2018</td>
+<td>29</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>79</td>
+<td>Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb</td>
+<td>1964</td>
+<td>unranked</td>
+<td>68</td>
+<td>unranked</td>
+<td>39</td>
+<td>unranked
+</td></tr>, <tr>
+<td>80</td>
+<td>Coco</td>
+<td>2017</td>
+<td>37</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>81</td>
+<td>The Third Man</td>
+<td>1949</td>
+<td>46</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>82</td>
+<td>The Usual Suspects</td>
+<td>1995</td>
+<td>unranked</td>
+<td>39</td>
+<td>82</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>83</td>
+<td>La Grande Illusion</td>
+<td>1937</td>
+<td>50</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>73
+</td></tr>, <tr>
+<td>84</td>
+<td>Once Upon a Time in the West</td>
+<td>1968</td>
+<td>unranked</td>
+<td>47</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>78
+</td></tr>, <tr>
+<td>85</td>
+<td>A Night at the Opera</td>
+<td>1935</td>
+<td>40</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>85</td>
+<td>unranked
+</td></tr>, <tr>
+<td>86</td>
+<td>Logan</td>
+<td>2017</td>
+<td>34</td>
+<td>unranked</td>
+<td>91</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>87</td>
+<td>Thor: Ragnarok</td>
+<td>2017</td>
+<td>42</td>
+<td>unranked</td>
+<td>83</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>88</td>
+<td>Léon: The Professional</td>
+<td>1994</td>
+<td>unranked</td>
+<td>34</td>
+<td>92</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>89</td>
+<td>King Kong</td>
+<td>1933</td>
+<td>85</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>41</td>
+<td>unranked
+</td></tr>, <tr>
+<td>90</td>
+<td>Eternal Sunshine of the Spotless Mind</td>
+<td>2004</td>
+<td>unranked</td>
+<td>91</td>
+<td>36</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>91</td>
+<td>Arrival</td>
+<td>2016</td>
+<td>51</td>
+<td>unranked</td>
+<td>76</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>92</td>
+<td>Portrait of a Lady on Fire</td>
+<td>2020</td>
+<td>36</td>
+<td>unranked</td>
+<td>93</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>93</td>
+<td>Nashville</td>
+<td>1975</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>59</td>
+<td>73
+</td></tr>, <tr>
+<td>94</td>
+<td>Intolerance</td>
+<td>1916</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>49</td>
+<td>93
+</td></tr>, <tr>
+<td>95</td>
+<td>La La Land</td>
+<td>2016</td>
+<td>78</td>
+<td>unranked</td>
+<td>64</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>96</td>
+<td>Do the Right Thing</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>47</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>97</td>
+<td>Inglourious Basterds</td>
+<td>2009</td>
+<td>unranked</td>
+<td>78</td>
+<td>69</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>98</td>
+<td>The Battle of Algiers</td>
+<td>1966</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>48
+</td></tr>, <tr>
+<td>99</td>
+<td>M</td>
+<td>1931</td>
+<td>unranked</td>
+<td>96</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>56
+</td></tr>, <tr>
+<td>100</td>
+<td>The Wild Bunch</td>
+<td>1969</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>79</td>
+<td>84
+</td></tr>, <tr>
+<td>101</td>
+<td>Star Wars: Return of the Jedi</td>
+<td>1983</td>
+<td>unranked</td>
+<td>87</td>
+<td>77</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>102</td>
+<td>A Clockwork Orange</td>
+<td>1971</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>103</td>
+<td>LA Confidential</td>
+<td>1997</td>
+<td>90</td>
+<td>unranked</td>
+<td>80</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>104</td>
+<td>Titanic</td>
+<td>1997</td>
+<td>unranked</td>
+<td>unranked</td>
+<td>88</td>
+<td>83</td>
+<td>unranked
+</td></tr>, <tr>
+<td>105</td>
+<td>Toy Story</td>
+<td>1995</td>
+<td>unranked</td>
+<td>75</td>
+<td>unranked</td>
+<td>99</td>
+<td>unranked
+</td></tr>, <tr>
+<td>106</td>
+<td>Reservoir Dogs</td>
+<td>1992</td>
+<td>unranked</td>
+<td>90</td>
+<td>100</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>107</td>
+<td>Paddington 2</td>
+<td>2018</td>
+<td>93</td>
+<td>unranked</td>
+<td>98</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>, <tr>
+<td>108</td>
+<td><a href="/web/20230902185655/https://en.everybodywiki.com/Am%C3%A9lie" title="Amélie">Amelie</a></td>
+<td>2001</td>
+<td>unranked</td>
+<td>100</td>
+<td>97</td>
+<td>unranked</td>
+<td>unranked
+</td></tr>]
+   Average Rank                                           Film  Year Rotten Tomatoes' Top 100
+0             1                                  The Godfather  1972                       17
+1             2                                   Citizen Kane  1941                        2
+2             3                                     Casablanca  1942                        8
+3             4                         The Godfather, Part II  1974                       99
+4             5                            Singin' in the Rain  1952                       52
+5             6                                         Psycho  1960                       88
+6             7                                    Rear Window  1954                       47
+7             8                                 Apocalypse Now  1979                 unranked
+8             9                          2001: A Space Odyssey  1968                 unranked
+9            10                                  Seven Samurai  1954                       49
+10           11                                        Vertigo  1958                 unranked
+11           12                                    Sunset Blvd  1950                       21
+12           13                                   Modern Times  1936                        4
+13           14                             Lawrence of Arabia  1962                 unranked
+14           15                             North by Northwest  1959                       79
+15           16                                      Star Wars  1977                 unranked
+16           17                                       Parasite  2019                        6
+17           18                               Schindler's List  1993                 unranked
+18           19  Lord of the Rings: The Fellowship of the Ring  2001                 unranked
+19           20                           Shawshank Redemption  1994                 unranked
+20           21                          It's a Wonderful Life  1946                 unranked
+21           22                                   Pulp Fiction  1994                 unranked
+22           23                              Avengers: Endgame  2019                        7
+23           24                                    City Lights  1931                 unranked
+24           25                One Flew Over the Cuckoo's Nest  1975                 unranked
+Traceback (most recent call last):
+  File "/Users/sam/KaamKaaj/Data engineer/LearningPython/ETL/web_scraping_io/webscraping_movies.py", line 38, in <module>
+    print(df[df["Year"] >= 2000])
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/core/arraylike.py", line 60, in __ge__
+    return self._cmp_method(other, operator.ge)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/core/series.py", line 6138, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/core/ops/array_ops.py", line 344, in comparison_op
+    res_values = comp_method_OBJECT_ARRAY(op, lvalues, rvalues)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/core/ops/array_ops.py", line 129, in comp_method_OBJECT_ARRAY
+    result = libops.scalar_compare(x.ravel(), y, op)
+  File "pandas/_libs/ops.pyx", line 107, in pandas._libs.ops.scalar_compare
+TypeError: '>=' not supported between instances of 'str' and 'int'
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/sam/KaamKaaj/Data engineer/LearningPython/ETL/web_scraping_io/webscraping_movies.py", line 8, in <module>
+    from ETL.etl_practice import target_file
+ModuleNotFoundError: No module named 'ETL'
+Samtva:web_scraping_io sam$ python3 webscraping_movies.py
+/Users/sam/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/sam/KaamKaaj/Data engineer/LearningPython/ETL/web_scraping_io/webscraping_movies.py", line 8, in <module>
+    from ETL.etl_practice import target_file
+ModuleNotFoundError: No module named 'ETL'
+Samtva:web_scraping_io sam$ cd .
+Samtva:web_scraping_io sam$ cd ..
+Samtva:ETL sam$ ls
+accessing_db            etl_code.py             source.zip
+datasource              etl_lab_instructions.md web_scraping_io
+datasource.zip          etl_practice.py
+etl_VC.ipynb            source
+Samtva:ETL sam$ cd accessing_db/
+Samtva:accessing_db sam$ python3 accesing_db.python
+/Applications/Xcode.app/Contents/Developer/usr/bin/python3: can't open file '/Users/sam/KaamKaaj/Data engineer/LearningPython/ETL/accessing_db/accesing_db.python': [Errno 2] No such file or directory
+Samtva:accessing_db sam$ python3 accessing_db.python
+/Applications/Xcode.app/Contents/Developer/usr/bin/python3: can't open file '/Users/sam/KaamKaaj/Data engineer/LearningPython/ETL/accessing_db/accessing_db.python': [Errno 2] No such file or directory
+Samtva:accessing_db sam$ python3 accessing_db.py
+Traceback (most recent call last):
+  File "/Users/sam/KaamKaaj/Data engineer/LearningPython/ETL/accessing_db/accessing_db.py", line 13, in <module>
+    df = pd.read_csv(file_path, names = attribute_list)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: './output/INSTRACTOR.csv'
+Samtva:accessing_db sam$ python3 accessing_db.py
+Traceback (most recent call last):
+  File "/Users/sam/KaamKaaj/Data engineer/LearningPython/ETL/accessing_db/accessing_db.py", line 13, in <module>
+    df = pd.read_csv(file_path, names = attribute_list)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: './output/INSTRACTOR.csv'
+Samtva:accessing_db sam$ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cl
+bash: wget: command not found
+Samtva:accessing_db sam$ python3 accessing_db.py
+Traceback (most recent call last):
+  File "/Users/sam/KaamKaaj/Data engineer/LearningPython/ETL/accessing_db/accessing_db.py", line 13, in <module>
+    df = pd.read_csv(file_path, names = attribute_list)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/sam/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: './output/INSTRACTOR.csv'
+Samtva:accessing_db sam$ python3 accessing_db.py
+Table is ready
+       ID      FNAME      LNAME      CITY  CCODE
+0      ID      FNAME      LNAME      CITY  CCODE
+1    1001      Linda    Johnson     Paris     FR
+2    1002   Patricia  Rodriguez    Sydney     AU
+3    1003   Jennifer    Johnson    Berlin     DE
+4    1004   Patricia   Williams    Berlin     DE
+..    ...        ...        ...       ...    ...
+96   1096   Patricia      Brown    Mumbai     IN
+97   1097      James  Rodriguez     Paris     FR
+98   1098  Elizabeth   Williams   Toronto     CA
+99   1099      James      Jones  New York     US
+100  1100   Jennifer      Smith     Paris     FR
+
+[101 rows x 5 columns]
+         FNAME
+0        FNAME
+1        Linda
+2     Patricia
+3     Jennifer
+4     Patricia
+..         ...
+96    Patricia
+97       James
+98   Elizabeth
+99       James
+100   Jennifer
+
+[101 rows x 1 columns]
+Samtva:accessing_db sam$ python3 accessing_db.py
+Table is ready
+       ID      FNAME      LNAME      CITY  CCODE
+0      ID      FNAME      LNAME      CITY  CCODE
+1    1001      Linda    Johnson     Paris     FR
+2    1002   Patricia  Rodriguez    Sydney     AU
+3    1003   Jennifer    Johnson    Berlin     DE
+4    1004   Patricia   Williams    Berlin     DE
+..    ...        ...        ...       ...    ...
+96   1096   Patricia      Brown    Mumbai     IN
+97   1097      James  Rodriguez     Paris     FR
+98   1098  Elizabeth   Williams   Toronto     CA
+99   1099      James      Jones  New York     US
+100  1100   Jennifer      Smith     Paris     FR
+
+[101 rows x 5 columns]
+[{"FNAME":"FNAME"},{"FNAME":"Linda"},{"FNAME":"Patricia"},{"FNAME":"Jennifer"},{"FNAME":"Patricia"},{"FNAME":"Robert"},{"FNAME":"James"},{"FNAME":"John"},{"FNAME":"Linda"},{"FNAME":"Michael"},{"FNAME":"Mary"},{"FNAME":"Jennifer"},{"FNAME":"John"},{"FNAME":"Michael"},{"FNAME":"Robert"},{"FNAME":"Jennifer"},{"FNAME":"John"},{"FNAME":"William"},{"FNAME":"Jennifer"},{"FNAME":"Mary"},{"FNAME":"Michael"},{"FNAME":"Elizabeth"},{"FNAME":"Mary"},{"FNAME":"Linda"},{"FNAME":"Jennifer"},{"FNAME":"Patricia"},{"FNAME":"Elizabeth"},{"FNAME":"Jennifer"},{"FNAME":"Robert"},{"FNAME":"Linda"},{"FNAME":"William"},{"FNAME":"Jennifer"},{"FNAME":"Linda"},{"FNAME":"Mary"},{"FNAME":"John"},{"FNAME":"Michael"},{"FNAME":"Mary"},{"FNAME":"Elizabeth"},{"FNAME":"William"},{"FNAME":"Elizabeth"},{"FNAME":"Jennifer"},{"FNAME":"Michael"},{"FNAME":"William"},{"FNAME":"Linda"},{"FNAME":"Michael"},{"FNAME":"James"},{"FNAME":"John"},{"FNAME":"Elizabeth"},{"FNAME":"Elizabeth"},{"FNAME":"Robert"},{"FNAME":"Michael"},{"FNAME":"Mary"},{"FNAME":"Michael"},{"FNAME":"James"},{"FNAME":"William"},{"FNAME":"Jennifer"},{"FNAME":"John"},{"FNAME":"John"},{"FNAME":"Michael"},{"FNAME":"John"},{"FNAME":"Mary"},{"FNAME":"Michael"},{"FNAME":"Mary"},{"FNAME":"Mary"},{"FNAME":"Elizabeth"},{"FNAME":"William"},{"FNAME":"Elizabeth"},{"FNAME":"Patricia"},{"FNAME":"Elizabeth"},{"FNAME":"Michael"},{"FNAME":"Jennifer"},{"FNAME":"Patricia"},{"FNAME":"Michael"},{"FNAME":"William"},{"FNAME":"John"},{"FNAME":"Patricia"},{"FNAME":"Patricia"},{"FNAME":"James"},{"FNAME":"James"},{"FNAME":"John"},{"FNAME":"Mary"},{"FNAME":"Robert"},{"FNAME":"William"},{"FNAME":"Robert"},{"FNAME":"William"},{"FNAME":"Mary"},{"FNAME":"Mary"},{"FNAME":"Jennifer"},{"FNAME":"Michael"},{"FNAME":"Mary"},{"FNAME":"Elizabeth"},{"FNAME":"Robert"},{"FNAME":"William"},{"FNAME":"John"},{"FNAME":"James"},{"FNAME":"James"},{"FNAME":"Patricia"},{"FNAME":"James"},{"FNAME":"Elizabeth"},{"FNAME":"James"},{"FNAME":"Jennifer"}]
+Samtva:accessing_db sam$ python3 accessing_db.py
+Traceback (most recent call last):
+  File "/Users/sam/KaamKaaj/Data engineer/LearningPython/ETL/accessing_db/accessing_db.py", line 10, in <module>
+    from ETL.web_scraping_io.webscraping_movies import data_dict
+ModuleNotFoundError: No module named 'ETL'
+Samtva:accessing_db sam$ python3 accessing_db.py
+Traceback (most recent call last):
+  File "/Users/sam/KaamKaaj/Data engineer/LearningPython/ETL/accessing_db/accessing_db.py", line 10, in <module>
+    from ETL.web_scraping_io.webscraping_movies import data_dict
+ModuleNotFoundError: No module named 'ETL'
+Samtva:accessing_db sam$ python3 accessing_db.py
+Traceback (most recent call last):
+  File "/Users/sam/KaamKaaj/Data engineer/LearningPython/ETL/accessing_db/accessing_db.py", line 10, in <module>
+    from ETL.web_scraping_io.webscraping_movies import data_dict
+ModuleNotFoundError: No module named 'ETL'
+Samtva:accessing_db sam$ python3 accessing_db.py
+Table is ready
+SELECT * FROM INSTRACTOR
+       ID      FNAME      LNAME      CITY  CCODE
+0      ID      FNAME      LNAME      CITY  CCODE
+1    1001      Linda    Johnson     Paris     FR
+2    1002   Patricia  Rodriguez    Sydney     AU
+3    1003   Jennifer    Johnson    Berlin     DE
+4    1004   Patricia   Williams    Berlin     DE
+..    ...        ...        ...       ...    ...
+96   1096   Patricia      Brown    Mumbai     IN
+97   1097      James  Rodriguez     Paris     FR
+98   1098  Elizabeth   Williams   Toronto     CA
+99   1099      James      Jones  New York     US
+100  1100   Jennifer      Smith     Paris     FR
+
+[101 rows x 5 columns]
+SELECT FNAME FROM INSTRACTOR
+         FNAME
+0        FNAME
+1        Linda
+2     Patricia
+3     Jennifer
+4     Patricia
+..         ...
+96    Patricia
+97       James
+98   Elizabeth
+99       James
+100   Jennifer
+
+[101 rows x 1 columns]
+[{"FNAME":"FNAME"},{"FNAME":"Linda"},{"FNAME":"Patricia"},{"FNAME":"Jennifer"},{"FNAME":"Patricia"},{"FNAME":"Robert"},{"FNAME":"James"},{"FNAME":"John"},{"FNAME":"Linda"},{"FNAME":"Michael"},{"FNAME":"Mary"},{"FNAME":"Jennifer"},{"FNAME":"John"},{"FNAME":"Michael"},{"FNAME":"Robert"},{"FNAME":"Jennifer"},{"FNAME":"John"},{"FNAME":"William"},{"FNAME":"Jennifer"},{"FNAME":"Mary"},{"FNAME":"Michael"},{"FNAME":"Elizabeth"},{"FNAME":"Mary"},{"FNAME":"Linda"},{"FNAME":"Jennifer"},{"FNAME":"Patricia"},{"FNAME":"Elizabeth"},{"FNAME":"Jennifer"},{"FNAME":"Robert"},{"FNAME":"Linda"},{"FNAME":"William"},{"FNAME":"Jennifer"},{"FNAME":"Linda"},{"FNAME":"Mary"},{"FNAME":"John"},{"FNAME":"Michael"},{"FNAME":"Mary"},{"FNAME":"Elizabeth"},{"FNAME":"William"},{"FNAME":"Elizabeth"},{"FNAME":"Jennifer"},{"FNAME":"Michael"},{"FNAME":"William"},{"FNAME":"Linda"},{"FNAME":"Michael"},{"FNAME":"James"},{"FNAME":"John"},{"FNAME":"Elizabeth"},{"FNAME":"Elizabeth"},{"FNAME":"Robert"},{"FNAME":"Michael"},{"FNAME":"Mary"},{"FNAME":"Michael"},{"FNAME":"James"},{"FNAME":"William"},{"FNAME":"Jennifer"},{"FNAME":"John"},{"FNAME":"John"},{"FNAME":"Michael"},{"FNAME":"John"},{"FNAME":"Mary"},{"FNAME":"Michael"},{"FNAME":"Mary"},{"FNAME":"Mary"},{"FNAME":"Elizabeth"},{"FNAME":"William"},{"FNAME":"Elizabeth"},{"FNAME":"Patricia"},{"FNAME":"Elizabeth"},{"FNAME":"Michael"},{"FNAME":"Jennifer"},{"FNAME":"Patricia"},{"FNAME":"Michael"},{"FNAME":"William"},{"FNAME":"John"},{"FNAME":"Patricia"},{"FNAME":"Patricia"},{"FNAME":"James"},{"FNAME":"James"},{"FNAME":"John"},{"FNAME":"Mary"},{"FNAME":"Robert"},{"FNAME":"William"},{"FNAME":"Robert"},{"FNAME":"William"},{"FNAME":"Mary"},{"FNAME":"Mary"},{"FNAME":"Jennifer"},{"FNAME":"Michael"},{"FNAME":"Mary"},{"FNAME":"Elizabeth"},{"FNAME":"Robert"},{"FNAME":"William"},{"FNAME":"John"},{"FNAME":"James"},{"FNAME":"James"},{"FNAME":"Patricia"},{"FNAME":"James"},{"FNAME":"Elizabeth"},{"FNAME":"James"},{"FNAME":"Jennifer"}]
+SELECT COUNT(*) FROM INSTRACTOR
+   COUNT(*)
+0       101
+Data appended Successfully
+Samtva:accessing_db sam$ python3 accessing_db.py
+Table is ready
+SELECT * FROM INSTRACTOR
+    ID    FNAME      LNAME      CITY CCODE
+0    1      Rav      Ahuja   TORONTO    CA
+1    2     Raul      Chong   Markham    CA
+2    3     Hima  Vasudevan   Chicago    US
+3    4     John     Thomas  Illinois    US
+4    5    Alice      James  Illinois    US
+5    6    Steve      Wells  Illinois    US
+6    7  Santosh      Kumar  Illinois    US
+7    8    Ahmed    Hussain  Illinois    US
+8    9    Nancy      Allen  Illinois    US
+9   10     Mary     Thomas  Illinois    US
+10  11  Bharath      Gupta  Illinois    US
+11  12   Andrea      Jones  Illinois    US
+12  13      Ann      Jacob  Illinois    US
+13  14     Amit      Kumar  NewDelhi    IN
+SELECT FNAME FROM INSTRACTOR
+      FNAME
+0       Rav
+1      Raul
+2      Hima
+3      John
+4     Alice
+5     Steve
+6   Santosh
+7     Ahmed
+8     Nancy
+9      Mary
+10  Bharath
+11   Andrea
+12      Ann
+13     Amit
+[{"FNAME":"Rav"},{"FNAME":"Raul"},{"FNAME":"Hima"},{"FNAME":"John"},{"FNAME":"Alice"},{"FNAME":"Steve"},{"FNAME":"Santosh"},{"FNAME":"Ahmed"},{"FNAME":"Nancy"},{"FNAME":"Mary"},{"FNAME":"Bharath"},{"FNAME":"Andrea"},{"FNAME":"Ann"},{"FNAME":"Amit"}]
+SELECT COUNT(*) FROM INSTRACTOR
+   COUNT(*)
+0        14
+Data appended Successfully
+Samtva:accessing_db sam$
