@@ -78,6 +78,11 @@ def run_query(query_statement, sql_connection):
     print(query_data)
     print(f"Data in json{query_data.to_json(orient='records')}")
 
+def log_progres(message):
+    timestamp_format = '%Y-%m-%d %H:%M:%S'
+    timestamp = datetime.now().strftime(timestamp_format)
+    print(timestamp, message)
+
 # def log_progress(message):
 #     ''' This function logs the mentioned message at a given stage of the code execution to a log file. Function returns nothing'''
 #
@@ -89,19 +94,19 @@ def run_query(query_statement, sql_connection):
 
 
 # extraction process
-print("ETL PROCESS START")
-print("DATA EXTRACTION START")
+log_progres("ETL PROCESS START")
+prinlog_progrest("DATA EXTRACTION START")
 df_extracted = extract(url, table_attributes)
-print("DATA EXTRACTION SUCCESS")
-print("DATA TRANSFORMATION START")
+log_progres("DATA EXTRACTION SUCCESS")
+log_progres("DATA TRANSFORMATION START")
 # Transform process
 df = transform(df_extracted)
-print("DATA TRANSFORMATION SUCCESS")
-print("DATA LOAD IN CSV START")
+log_progres("DATA TRANSFORMATION SUCCESS")
+log_progres("DATA LOAD IN CSV START")
 # load into csv
 load_to_csv(df_extracted, csv_path)
 
-print("DATA LOAD IN DB START")
+log_progres("DATA LOAD IN DB START")
 sql_connection = sql.connect(db_name)
 load_to_db(df, sql_connection, table_name)
 

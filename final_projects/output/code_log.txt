@@ -1,0 +1,11 @@
+2026-04-08 18:02:08: ETL Process Started
+2026-04-08 18:02:08: Extraction data from website Started
+2026-04-08 18:02:10: Extraction data from website ended
+2026-04-08 18:02:10: Extraction data from csv for exchanging data
+2026-04-08 18:02:10: Transformation of data Started
+2026-04-08 18:02:10: Transformation of data ended
+2026-04-08 18:02:10: Loading data into csv Started.
+2026-04-08 18:02:10: Loading data into csv successfully.
+2026-04-08 18:02:10: Loading data into local database started.
+2026-04-08 18:02:10: Loading data into local database successfully.
+2026-04-08 18:02:10: ETL Process Completed.

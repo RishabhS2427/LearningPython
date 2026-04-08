@@ -77,10 +77,9 @@ def load_data(target_file, transformed_data):
 
 def log_progress(message):
     timestamp_format = '%Y-%m-%d %H:%M:%S'
-    now = datetime.now()
-    timestamp = now.strftime(timestamp_format)
+    now = datetime.now().strftime(timestamp_format)
     with open(log_file, 'a+') as f:
-        f.write(timestamp + ' ' + message + '\n')
+        f.write(now + ' ' + message + '\n')
 
  # Log the init of the ETL process
 log_progress("ETL Job Started")
