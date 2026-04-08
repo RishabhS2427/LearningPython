@@ -1,4 +1,5 @@
 ### Short Notations
+FOR TESTING CODE DELETE ALL THE FILES INSIDE OUTPUT FOLDERS
 #### File naming Shorthands
  > 1. Video-Content = <name>_VC.<fileExt> eg: python_basic_VC.py
  > 2. Module= <name>_M.<fileExt>

@@ -5,7 +5,7 @@ import requests
 import sqlite3 as sql
 from bs4 import BeautifulSoup
 
-from ETL.etl_practice import target_file
+from etl.etl_practice import target_file
 
 url = 'https://web.archive.org/web/20230902185655/https://en.everybodywiki.com/100_Most_Highly-Ranked_Films'
 db_name = 'Movies.db'
