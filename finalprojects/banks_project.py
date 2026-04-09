@@ -30,7 +30,6 @@
 import pandas as pd
 import requests
 import sqlite3 as sql
-import runpy as np
 from bs4 import BeautifulSoup
 from datetime import datetime as dt
 
@@ -80,7 +79,7 @@ def transform (df, table_attributes_final, df_exchange):
     df[table_attributes_final[3]] = (df['Market cap US$ Billion'] * df_exchange['EUR']).round(2)
     #'Market Capitalization in INR'
     df[table_attributes_final[4]] = ((df['Market cap US$ Billion']) * df_exchange['INR']).round(2)
-
+    print(df)
     return df
 def from_csv(input_file):
     df = pd.read_csv(input_file)
