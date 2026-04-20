@@ -3,7 +3,12 @@
 Welcome to PostgreSQL. After watching this video, you will be able to describe PostgreSQL, explain how you can work with PostgreSQL, and describe replication functionality in PostgreSqL.
 
 ---
-
+# CLI CMD TO RUN postgreSQL   
+ > % sudo -u postgres psql
+ > 
+ > Password: # system password 
+ > 
+ > Password for user postgres: #postgres pass in this case test123 
 ## Introduction and History
 PostgreSQL originates from the POSTGRES project at the University of California more than 30 years ago.
 

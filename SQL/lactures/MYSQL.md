@@ -3,6 +3,11 @@
 Welcome to MySQL. After watching this video, you will be able to describe MySQL and its historical background, describe the key attributes of working with MySQL, describe some MySQL storage engines, identify clustering options provided by MySQL.
 
 ---
+# CLI CMD TO START MYSQL 
+> % mysql -u sam -p   # mysql -u <user> -p
+> 
+> In sam case test123 
+
 
 ## Introduction to MySQL
 MySQL is an object relational database management system that plays a pivotal role in modern web development.

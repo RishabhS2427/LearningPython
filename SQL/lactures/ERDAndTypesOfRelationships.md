@@ -79,7 +79,7 @@ The relationship can also be viewed as a many-to-one signifying that multiple au
 To represent many authors writing many books use the greater-than and less-than symbols on either side of the relationship set.  The scenario is termed a many-to-many relationship.  Multiple relationships involve each entity in the entity set.  It includes scenarios where many authors author many books.
 
 ---
-
+<img src="../../res/erd_connector.jpg" width="600" height="500">
 ## Summary
 In this video, you learned that an ERD is a visual representation that illustrates the relationships and interactions between entities in a database.  The fundamental components that form the structure of a relationship include entities, relationship sets, and crow's foot notations.
 
