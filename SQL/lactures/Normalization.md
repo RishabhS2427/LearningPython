@@ -1,6 +1,6 @@
 # Normalization
 
-Welcome to Normalization. After watching this video, you will be able to explain the purpose of normalization, describe the first normal form, describe the second normal form, describe the third normal form.
+**Welcome to Normalization. After watching this video, you will be able to explain the purpose of normalization, describe the first normal form, describe the second normal form, describe the third normal form.**
 
 ---
 
