@@ -81,12 +81,62 @@ The first step when designing a new database is to review any existing data and 
 ::page{title="Task 2: Identify attributes"}
 
 
-
 In this task, you will identify the attributes of one of the entities you plan to create.
 
 1. Using the information from the sample data in the image from Task 1, identify the entity\'s attributes that will store the sales transaction data.
 
+Answer NF1
+```mermaid
+erDiagram
+staff {
+Int staff_id
+string first_name
+string last_name 
+string position
+date start_date
+String location 
+} 
+sales_outlet {
+Int sales_outlet_id
+String sales_outlet_type
+String address
+String city
+String Telephone
+Int postal_code
+Int Manager 
+}
+sales_transaction{
+Int transaction_id
+Int sales_outlet_id
+Int staff_id
+Int customer_id
+Int product_id
+Int quantity 
+number price
+}
+customer{
+    Int customer_id
+    string customer_name
+    string customer_email
+    string customer_since
+    string customer_card_number
+    date birth
+    char gender
+}
+product {
+    string product_id
+    string product_category
+    string product_type
+    string product_category
+    string product_type
+    string product_name
+    string description 
+    number price
+}
+
+```
 2. Make a list of the sales transaction attributes that you identified. Take a screenshot and save it as Task2.jpg or Task2.png.
+- Answer **[product, customer, sales_transaction, sales_outlet ,staff ]**
 
 ::page{title="Task 3: Create an ERD"}
 
@@ -109,11 +159,50 @@ Now that you have defined some of your attributes and entities, you can determin
 
     ![sales transaction](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0110EN-SkillsNetwork/labs/Final%20Project/images/Task3A.png)
 
+Answer Task3A
+```mermaid
+erDiagram
+    Sales_transaction{ 
+        _ Transaction_id
+        _ Date 
+        _ Time 
+        _ Sales_outlet
+        _ Staff
+        _ Customer
+        _ Product
+        _ Quantity
+        _ Price
+} 
+```
+
 6. Take a screenshot of your ERD and save it as Task3A.png or Task3A.jpg.
 
 7. Add a table to the ERD for the product entity using the information in the following table.
 
     ![Product](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0110EN-SkillsNetwork/labs/Final%20Project/images/Task3B.png)
+
+Answer Task3B
+```mermaid
+erDiagram
+    Sales_transaction{ 
+        _ Transaction_id
+        _ Date 
+        _ Time 
+        _ Sales_outlet
+        _ Staff
+        _ Customer
+        _ Product
+        _ Quantity
+        _ Price
+} 
+Product {
+   _ Product_id
+   _ Category
+   _ Product
+   _ Description
+   _ Price
+}
+```
 
 8.  Take a screenshot of your ERD and save it as Task3B.png or Task3B.jpg.
 
@@ -123,21 +212,69 @@ Now that you have defined some of your attributes and entities, you can determin
 
 When reviewing your ERD, you notice it does not conform to the second normal form. In this task, you will normalize some of the tables within the database.
 
-1. Review the data in the sales transaction table. Note that the transaction id column does not contain unique values because some transactions include multiple products.
+Review the data in the sales transaction table. Note that the transaction id column does not contain unique values because some transactions include multiple products.
 
-2. Determine which columns should be stored in a separate table to remove the repeating rows and to put this table into second normal form.
+Determine which columns should be stored in a separate table to remove the repeating rows and to put this table into second normal form.
+- Answer NF2 
+```mermaid
+erDiagram
+    Sales_transaction ||--|{ Sales_detail : ""
+    Product ||--|{ Sales_detail : ""   
+    Product ||--|{ Product_type : ""
+    Sales_transaction{ 
+        int Transaction_id PK
+        date Date 
+        datetime Time 
+        int Sales_outlet_id FK
+        int customer_id FK 
+        int Product_id FK
+        _ Quantity
+        _ Price
+} 
+Customer {
+    int Customer_id PK
+    
+}
+Staff_outlet{
+    int Sales_outlet_id PK
+    int Staff_id FK
+    int location_id FK
+}
+Staff{
+  int Staff_id PK 
+  int Sales_outlet_id FK
+  _ name
+  _ other_fields
+}
+Product {
+int  Product_id FK
+int product_type_id FK
+String Description
+number Price
+}
+Sales_detail {
+    int sales_id
+    int sales_outlet_id
+    int quantity
+    int transaction_id
+    int Price
+}
+Product_type {
+    int product_type_name
+    int product_type_id PK
+}
+```
+Add a new table named `sales_detail` to the ERD, define the columns in the new table, and delete the moved columns from the sales transaction table, leaving a matching column in each of the two tables to create a relationship between them later.
 
-3. Add a new table named `sales_detail` to the ERD, define the columns in the new table, and delete the moved columns from the sales transaction table, leaving a matching column in each of the two tables to create a relationship between them later.
+Take a screenshot of your ERD and save it as Task4A.png or Task4A.jpg.
 
-4. Take a screenshot of your ERD and save it as Task4A.png or Task4A.jpg.
+Review the data in the product table. Note that the product category and product type columns contain redundant data.
 
-5. Review the data in the product table. Note that the product category and product type columns contain redundant data.
+Determine which columns should be stored in a separate table to reduce redundant data and to put this table into a second normal form.
 
-6. Determine which columns should be stored in a separate table to reduce redundant data and to put this table into a second normal form.
+Add a new table named `product_type` to the ERD, define the columns in the new table, and delete the moved columns from the product table, leaving a matching column in each of the two tables to create a relationship between them later.
 
-7. Add a new table named `product_type` to the ERD, define the columns in the new table, and delete the moved columns from the product table, leaving a matching column in each of the two tables to create a relationship between them later.
-
-8. Take a screenshot of your ERD and save it as Task4B.png or Task4B.jpg.
+Take a screenshot of your ERD and save it as Task4B.png or Task4B.jpg.
 
 ::page{title="Task 5: Define keys and relationships"}
 

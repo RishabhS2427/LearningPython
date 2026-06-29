@@ -33,7 +33,7 @@ You will use a modified version of the database for the lab, so to follow the la
 
 The following entity relationship diagram (ERD) shows the schema of the Sakila database:
 
-<img src="../../res/sakila_ERD.jpg" width="500" height="592">
+<img src="../../resources/sakila_ERD.jpg" width="500" height="592">
 
 ::page{title="Task A: Create a database"}
 
